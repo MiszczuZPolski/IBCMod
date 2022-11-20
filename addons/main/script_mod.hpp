@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX z
-#define PREFIX proj_templ
+#define PREFIX ibc
 
 #include "script_version.hpp"
 
@@ -10,11 +10,10 @@
 
 #define PROJ_TEMPL_TAG PROJ_TEMPL
 
-// MINIMAL required version for the Mod. Components can specify others..
-#define REQUIRED_VERSION 1.56
+#define REQUIRED_VERSION 1.88
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(proj_templ - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(IBC - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(proj_templ - COMPONENT)
+    #define COMPONENT_NAME QUOTE(IBC - COMPONENT)
 #endif

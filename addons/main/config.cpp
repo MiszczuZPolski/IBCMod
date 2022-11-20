@@ -2,17 +2,12 @@
 
 class CfgPatches {
     class ADDON {
-        name = COMPONENT_NAME;
+        name = QUOTE(COMPONENT);
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
-        author = "";
-        authors[] = {"ACE Team", "Glowbal"};
-        authorUrl = "http://ace3mod.com";
+        requiredAddons[] = {};
+        author = "MiszczuZPolski";
         VERSION_CONFIG;
     };
 };
-
-#include "CfgEventHandlers.hpp"
-#include "CfgModuleCategories.hpp"

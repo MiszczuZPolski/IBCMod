@@ -1,8 +1,7 @@
-release/*
-*.cache
-*.pbo
-texHeaders.bin
-*.swp
-*.swo
+
+## Added by HEMTT
+releases/*
 *.biprivatekey
-Thumbs.db
+keys/*
+.hemtt/local
+####
