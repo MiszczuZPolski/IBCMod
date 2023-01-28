@@ -6,7 +6,9 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {
+            "cba_main"
+        };
         author = "MiszczuZPolski";
         VERSION_CONFIG;
     };

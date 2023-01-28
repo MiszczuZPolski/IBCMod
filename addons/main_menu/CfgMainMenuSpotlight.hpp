@@ -36,4 +36,8 @@ class CfgMainMenuSpotlight {
 
     delete AoW_Showcase_AoW;
     delete AoW_Showcase_Future;
+
+    delete Extraction_lxWS;
+    delete Showcase_VR_lxWS;
+    delete Showcase_Alchemist_lxWS;
 };
