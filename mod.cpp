@@ -1,12 +1,12 @@
 name = "IBC Main Mod";
-picture = "logo_ibc_ca.paa";
+picture = "ibc_logo.paa";
 actionName = "GitHub";
 action = "https://github.com/MiszczuZPolski/IBCMod";
 description = "Mod for Arma 3";
-logo = "logo_ibc_ca.paa";
-logoOver = "logo_ibc_ca.paa";
+logo = "ibc_logo.paa";
+logoOver = "ibc_logo.paa";
 tooltip = "ACE3 Project Template";
 tooltipOwned = "ACE3 Project Template Owned";
 overview = "Advanced Combat Environment 3 Project Template";
 author = "MiszczuZPolski";
-overviewPicture = "logo_ibc_ca.paa";
+overviewPicture = "ibc_logo.paa";

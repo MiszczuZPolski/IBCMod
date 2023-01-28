@@ -15,6 +15,8 @@
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
+#define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
+
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
     #define PREP(fncName) DFUNC(fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
