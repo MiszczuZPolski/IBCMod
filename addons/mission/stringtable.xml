@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="Mission">
+        <Key ID="STR_IBC_Mission_Setting_Enable">
+            <English>Enable anti-cheat</English>
+            <Polish>Włącz anty-cheat</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Setting_Enable_Description">
+            <English>Enable anti-cheat for this mission.\n This script checks if player tries to access arsenal or zeus without permission.</English>
+            <Polish>Włącz anty-cheat dla tej misji.\n Skrypt sprawdza czy gracz próbuje uzyskać dostęp do arsenalu lub zeusa bez uprawnień.</Polish>
+    </Package>
+</Project>

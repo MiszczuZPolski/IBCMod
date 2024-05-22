@@ -1,0 +1,22 @@
+#define COMPONENT main
+#include "\z\ibc\addons\main\script_mod.hpp"
+
+// #define DEBUG_MODE_FULL
+// #define DISABLE_COMPILE_CACHE
+// #define CBA_DEBUG_SYNCHRONOUS
+// #define ENABLE_PERFORMANCE_COUNTERS
+
+#ifdef DEBUG_ENABLED_MAIN
+    #define DEBUG_MODE_FULL
+#endif
+    #ifdef DEBUG_SETTINGS_MAIN
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
+#endif
+
+#include "\z\ibc\addons\main\script_macros.hpp"
+
+#define ADMIN_MISZCZU "76561198138528880"
+#define ADMIN_ADAAMEK "76561198035539179"
+#define ADMIN_SETLER "76561198059861204"
+#define ADMIN_MICHUS "76561198007886815"
+#define ADMIN_APOLLO "76561198161827699"

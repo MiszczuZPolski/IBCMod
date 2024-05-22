@@ -13,10 +13,3 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-
-#include "CfgEden.hpp"
-#include "CfgEditorCategories.hpp"
-#include "CfgModuleCategories.hpp"
-#include "CfgSettings.hpp"
-#include "CfgVehicleClasses.hpp"
-#include "displayEden.hpp"
