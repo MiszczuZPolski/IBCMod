@@ -165,20 +165,6 @@ class Cfg3DEN {
                             control = QGVAR(respawnDialog);
                             defaultValue = "true";
                         };
-                        class debugConsole {
-                            property = "debugConsole";
-                            displayName = CSTRING(DebugConsole);
-                            tooltip = CSTRING(DebugConsoleDesc);
-                            control = QGVAR(debugConsole);
-                            defaultValue = "true";
-                        };
-                        class targetDebug {
-                            property = "targetDebug";
-                            displayName = CSTRING(TargetDebug);
-                            tooltip = CSTRING(TargetDebugDesc);
-                            control = QGVAR(targetDebug);
-                            defaultValue = "true";
-                        };
                         class findings {
                             property = "findings";
                             displayName = "";
@@ -260,16 +246,6 @@ class Cfg3DEN {
         };
         class GVAR(respawnDialog): Title {
             attributeLoad = QUOTE(_this call FUNC(testRespawnDialog));
-            attributeSave = "true";
-            ATTRIBUTE_CONTROLS
-        };
-        class GVAR(debugConsole): Title {
-            attributeLoad = QUOTE(_this call FUNC(testDebugConsole));
-            attributeSave = "true";
-            ATTRIBUTE_CONTROLS
-        };
-        class GVAR(targetDebug): Title {
-            attributeLoad = QUOTE(_this call FUNC(testTargetDebug));
             attributeSave = "true";
             ATTRIBUTE_CONTROLS
         };
