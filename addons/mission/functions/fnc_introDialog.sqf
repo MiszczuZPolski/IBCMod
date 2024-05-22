@@ -21,7 +21,10 @@ createDialog QGVAR(introDialog);
 
 waitUntil {!isNull (findDisplay 9001)};
 
-_missionName = getMissionConfigValue "OnLoadName";
+_missionName = getMissionConfigValue ["onLoadName", ""];
+if (_missionName == "") then {
+    _missionName = "Scenario" get3DENMissionAttribute "IntelBriefingName";
+};
 _author = getMissionConfigValue "author";
 _roleDesc = roleDescription ACE_player;
 _unitGroup = groupId (group ACE_player);
