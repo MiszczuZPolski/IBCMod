@@ -12,20 +12,20 @@ class CfgVehicles {
         icon = "\a3\ui_f\data\gui\cfg\hints\icon_text\group_1_ca.paa";
         class Arguments {
             class Timer {
-                displayName = CSTRING(Mode);
-                description = CSTRING(ModeDesc);
+                displayName = CSTRING(Timer);
+                description = CSTRING(TimerDesc);
                 typeName = "STRING";
                 defaultValue = 15;
             };
             class CustomText {
-                displayName = CSTRING(Name);
-                description = CSTRING(NameDesc);
+                displayName = CSTRING(CustomText);
+                description = CSTRING(CustomTextDesc);
                 typeName = "STRING";
                 defaultValue = "Custom Text";
             };
             class Terrain {
-                displayName = CSTRING(Name);
-                description = CSTRING(NameDesc);
+                displayName = CSTRING(Terrain);
+                description = CSTRING(TerrainDesc);
                 typeName = "STRING";
                 defaultValue = "Stratis";
             };

@@ -8,5 +8,34 @@
         <Key ID="STR_IBC_Mission_Setting_Enable_Description">
             <English>Enable anti-cheat for this mission.\n This script checks if player tries to access arsenal or zeus without permission.</English>
             <Polish>Włącz anty-cheat dla tej misji.\n Skrypt sprawdza czy gracz próbuje uzyskać dostęp do arsenalu lub zeusa bez uprawnień.</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Timer">
+            <English>Timer</English>
+            <Polish>Timer</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Timer_Desc">
+            <English>How long will intro last</English>
+            <Polish>Jak długo potrwa intro</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_CustomText">
+            <English>Custom Text</English>
+            <Polish>Tekst Własny</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_CustomText_Desc">
+            <English>Custom text that will be displayed on the screen</English>
+            <Polish>Tekst własny, który będzie wyświetlany na ekranie</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Terrain">
+            <English>Terrain</English>
+            <Polish>Teren</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Terrain_Desc">
+            <English>Terrain name for display</English>
+            <Polish>Nazwa terenu do wyświetlenia</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_ModuleDescription">
+            <English>Module handling intro display</English>
+            <Polish>Moduł obsługujący wyświetlanie intro</Polish>
+        </Key>
     </Package>
 </Project>
