@@ -9,7 +9,6 @@ class CfgPatches {
         requiredAddons[] = {"proj_templ_main"};
         author = "";
         authors[] = {""};
-        VERSION_CONFIG;
     };
 };
 

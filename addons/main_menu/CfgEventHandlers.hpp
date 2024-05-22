@@ -17,12 +17,12 @@ class Extended_PostInit_EventHandlers {
 class Extended_DisplayLoad_EventHandlers {
     class RscDisplayRemoteMissions {
         ADDON = QUOTE(with uiNamespace do {\
-            ARR_2([_this select 0, 'RscDisplayRemoteMissions']) call COMPILE_FILE(XEH_multiplayerDisplay);\
+            ARR_2([_this select 0,'RscDisplayRemoteMissions']) call COMPILE_FILE(XEH_multiplayerDisplay);\
         });
     };
     class RscDisplayMultiplayerSetup {
         ADDON = QUOTE(with uiNamespace do {\
-            ARR_2([_this select 0, 'RscDisplayMultiplayerSetup']) call COMPILE_FILE(XEH_multiplayerDisplay);\
+            ARR_2([_this select 0,'RscDisplayMultiplayerSetup']) call COMPILE_FILE(XEH_multiplayerDisplay);\
         });
     };
 };
