@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ibc_main"};
+        requiredAddons[] = {"ibc_main", "ace_common"};
         author = ECSTRING(main,Author);
         VERSION_CONFIG;
     };

@@ -22,6 +22,11 @@ params ["_logic", "", "_activated"];
 if (!_activated) exitWith {};
 if (isNull _logic) exitWith {};
 
+// Extract mission name
+private _missionName = _logic getVariable "MissionName";
+
+//Extract mission author
+private _missionAuthor = _logic getVariable "MissionAuthor";
 
 // Extract timer
 private _time = _logic getVariable "Timer";
@@ -33,4 +38,4 @@ private _customText = _logic getVariable "CustomText";
 // Extract terrain
 private _terrain = _logic getVariable "Terrain";
 
-[_timer, _customText, _terrain] spawn FUNC(introDialog);
+[_missionName, _author, _timer, _customText, _terrain] spawn FUNC(introDialog);

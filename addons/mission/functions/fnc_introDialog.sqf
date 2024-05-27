@@ -14,18 +14,13 @@
  */
 
 disableSerialization;
-params ["_time", "_customText", "_terrain"];
+params ["_missionName", "_author", "_time", "_customText", "_terrain"];
 ["BlackAndWhite", 0.25, false] call BIS_fnc_setPPeffectTemplate;
 sleep 0.5;
 createDialog QGVAR(introDialog);
 
 waitUntil {!isNull (findDisplay 9001)};
 
-_missionName = getMissionConfigValue ["onLoadName", ""];
-if (_missionName == "") then {
-    _missionName = "Scenario" get3DENMissionAttribute "IntelBriefingName";
-};
-_author = getMissionConfigValue "author";
 _roleDesc = roleDescription ACE_player;
 _unitGroup = groupId (group ACE_player);
 

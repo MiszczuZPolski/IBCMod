@@ -13,6 +13,15 @@ private _category = "IBC Mission Settings";
     "CHECKBOX",
     [LLSTRING(Setting_Enable), LLSTRING(Setting_Enable_Description)],
     _category,
+    false
+] call CBA_fnc_addSetting;
+
+[
+    QGVAR(whitelistArsenal),
+    "EDITBOX",
+    [LLSTRING(Setting_Whitelist), LLSTRING(Setting_Whitelist_Description)],
+    _category,
+    "",
     true
 ] call CBA_fnc_addSetting;
 

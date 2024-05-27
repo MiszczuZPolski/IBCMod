@@ -9,6 +9,22 @@
             <English>Enable anti-cheat for this mission.\n This script checks if player tries to access arsenal or zeus without permission.</English>
             <Polish>Włącz anty-cheat dla tej misji.\n Skrypt sprawdza czy gracz próbuje uzyskać dostęp do arsenalu lub zeusa bez uprawnień.</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_MissionName">
+            <English>Mission Name</English>
+            <Polish>Nazwa Misji</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_MissionName_Desc">
+            <English>Mission name for display</English>
+            <Polish>Nazwa misji do wyświetlenia</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Author">
+            <English>Author</English>
+            <Polish>Autor</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Author_Desc">
+            <English>Author name for display</English>
+            <Polish>Nazwa autora do wyświetlenia</Polish>
+        </Key>
         <Key ID="STR_IBC_Mission_Timer">
             <English>Timer</English>
             <Polish>Timer</Polish>

@@ -11,6 +11,18 @@ class CfgVehicles {
         isDisposable = 0;
         icon = "\a3\ui_f\data\gui\cfg\hints\icon_text\group_1_ca.paa";
         class Arguments {
+            class MissionName {
+                displayName = CSTRING(MissionName);
+                description = CSTRING(MissionNameDesc);
+                typeName = "STRING";
+                defaultValue = "Mission Name";
+            };
+            class MissionAuthor {
+                displayName = CSTRING(MissionAuthor);
+                description = CSTRING(MissionAuthorDesc);
+                typeName = "STRING";
+                defaultValue = "Mission Author";
+            };
             class Timer {
                 displayName = CSTRING(Timer);
                 description = CSTRING(TimerDesc);

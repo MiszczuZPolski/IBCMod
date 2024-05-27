@@ -3,13 +3,41 @@
 // Exit if not player client
 if (!hasInterface) exitWith {};
 
-HLC_ShowBarrelActions = false; // Remove NiArms Barrel Actions
-CUP_stopLampCheck = true; // Disable CUP street lights based on lighting levels (bad performance script)
-
 ["CBA_settingsInitialized", {
-    ["unit", FUNC(equipmentList), true] call CBA_fnc_addPlayerEventHandler;
+    call FUNC(equipmentList);
 }] call CBA_fnc_addEventHandler;
 
-if GVAR(arsenalCheck) then {
-    ["featureCamera", {[_this] call FUNC(arsenalCheck);}] call CBA_fnc_addPlayerEventHandler;
-};
+["featureCamera", {
+    if !GVAR(checkArsenal) exitWith {};
+
+    params ["_unit", "_camera"];
+
+    private _uid = getPlayerUID _unit;
+    private _whitelist = GVAR(whitelistArsenal) splitString ",";
+    private _zero_based_position = _whitelist findIf {_x == _uid};
+    private _error = "";
+    private _unitName = [_unit, false, true] call ACEFUNC(common,getName);
+    private _activeCamera = call CBA_fnc_getActiveFeatureCamera;
+
+    if (_zero_based_position == -1) then {
+
+        switch (_activeCamera) do {
+            case "ace_arsenal": {
+                _error = format ["Gracz: %1 próbował skorzystać z ACE Arsenału", _unitName];
+            };
+            case "arsenal": {
+                _error = format ["Gracz: %1 próbował skorzystać z Arsenału", _unitName];
+            };
+            case "splendid": {
+                _error = format ["Gracz: %1 próbował skorzystać z Kamery Obserwatora", _unitName];
+            };
+            case "curator": {
+                _error = format ["Gracz: %1 próbował skorzystać z ZEUSA", _unitName];
+            };
+        };
+        if (_error != "") then {
+            [QACEGVAR(common,systemChatGlobal), _error] call CBA_fnc_globalEvent;
+        };
+    };
+
+}] call CBA_fnc_addPlayerEventHandler;
