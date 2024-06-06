@@ -32,10 +32,10 @@ jobs:
             draft: true
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        - name: Update to Steam Workshop (stable)
+        - name: Update to Steam Workshop
           uses: arma-actions/workshop-upload@v1
           with:
-            itemId: '2020940806'
+            itemId: '2854286442'
             contentPath: './@ibc-${{ env.VERSION }}'
             changelog: |
               https://github.com/MiszczuZPolski/IBCMod/releases/tag/v${{ env.VERSION }}
