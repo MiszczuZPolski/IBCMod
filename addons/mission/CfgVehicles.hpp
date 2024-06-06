@@ -13,31 +13,31 @@ class CfgVehicles {
         class Arguments {
             class MissionName {
                 displayName = CSTRING(MissionName);
-                description = CSTRING(MissionNameDesc);
+                description = CSTRING(MissionName_Desc);
                 typeName = "STRING";
                 defaultValue = "Mission Name";
             };
             class MissionAuthor {
                 displayName = CSTRING(MissionAuthor);
-                description = CSTRING(MissionAuthorDesc);
+                description = CSTRING(MissionAuthor_Desc);
                 typeName = "STRING";
                 defaultValue = "Mission Author";
             };
             class Timer {
                 displayName = CSTRING(Timer);
-                description = CSTRING(TimerDesc);
+                description = CSTRING(Timer_Desc);
                 typeName = "STRING";
                 defaultValue = 15;
             };
             class CustomText {
                 displayName = CSTRING(CustomText);
-                description = CSTRING(CustomTextDesc);
+                description = CSTRING(CustomText_Desc);
                 typeName = "STRING";
                 defaultValue = "Custom Text";
             };
             class Terrain {
                 displayName = CSTRING(Terrain);
-                description = CSTRING(TerrainDesc);
+                description = CSTRING(Terrain_Desc);
                 typeName = "STRING";
                 defaultValue = "Stratis";
             };

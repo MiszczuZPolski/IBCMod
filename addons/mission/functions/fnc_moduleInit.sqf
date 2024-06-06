@@ -38,4 +38,4 @@ private _customText = _logic getVariable "CustomText";
 // Extract terrain
 private _terrain = _logic getVariable "Terrain";
 
-[_missionName, _author, _timer, _customText, _terrain] spawn FUNC(introDialog);
+[_missionName, _missionAuthor, _timer, _customText, _terrain] spawn FUNC(introDialog);

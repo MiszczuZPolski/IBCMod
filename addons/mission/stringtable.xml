@@ -17,11 +17,11 @@
             <English>Mission name for display</English>
             <Polish>Nazwa misji do wyświetlenia</Polish>
         </Key>
-        <Key ID="STR_IBC_Mission_Author">
+        <Key ID="STR_IBC_Mission_MissionAuthor">
             <English>Author</English>
             <Polish>Autor</Polish>
         </Key>
-        <Key ID="STR_IBC_Mission_Author_Desc">
+        <Key ID="STR_IBC_Mission_MissionAuthor_Desc">
             <English>Author name for display</English>
             <Polish>Nazwa autora do wyświetlenia</Polish>
         </Key>
