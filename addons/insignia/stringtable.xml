@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="Insignia">
+        <Key ID="STR_IBC_Insignia_Logo">
+            <Polish>IBC</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Doge">
+            <Polish>Doge</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Michus">
+            <Polish>Michus</Polish>
+        </Key>
+    </Package>
+</Project>
