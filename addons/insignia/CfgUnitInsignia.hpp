@@ -2,4 +2,6 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(Logo);
     MACRO_UNITINSIGNIA(Doge);
     MACRO_UNITINSIGNIA(Michus);
+    MACRO_UNITINSIGNIA(Emeritus);
+    MACRO_UNITINSIGNIA(Powidz);
 };

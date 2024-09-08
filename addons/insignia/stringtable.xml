@@ -10,5 +10,11 @@
         <Key ID="STR_IBC_Insignia_Michus">
             <Polish>Michus</Polish>
         </Key>
+        <Key ID="STR_IBC_Insignia_Emeritus">
+            <Polish>Emeritus</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Powidz">
+            <Polish>Grey Wolves Powidz</Polish>
+        </Key>
     </Package>
 </Project>
