@@ -19,5 +19,20 @@
         <Key ID="STR_IBC_Insignia_King">
             <Polish>Król Gór</Polish>
         </Key>
+        <Key ID="STR_IBC_Insignia_Homokomando">
+            <Polish>Homo Komando</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Meal">
+            <Polish>Meal Team 6</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Obajtek">
+            <Polish>PMC Orlen</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Resurs">
+            <Polish>Resurs</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Terror">
+            <Polish>Anti Terror Terror Club</Polish>
+        </Key>
     </Package>
 </Project>
