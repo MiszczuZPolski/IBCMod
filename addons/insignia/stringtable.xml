@@ -16,5 +16,8 @@
         <Key ID="STR_IBC_Insignia_Powidz">
             <Polish>Grey Wolves Powidz</Polish>
         </Key>
+        <Key ID="STR_IBC_Insignia_King">
+            <Polish>Król Gór</Polish>
+        </Key>
     </Package>
 </Project>
