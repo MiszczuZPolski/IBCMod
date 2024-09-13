@@ -34,5 +34,17 @@
         <Key ID="STR_IBC_Insignia_Terror">
             <Polish>Anti Terror Terror Club</Polish>
         </Key>
+        <Key ID="STR_IBC_Insignia_Cat">
+            <Polish>I Am Lost</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Goose">
+            <Polish>Goose</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Special">
+            <Polish>Special</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Gandalf">
+            <Polish>Gandalf</Polish>
+        </Key>
     </Package>
 </Project>

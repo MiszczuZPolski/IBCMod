@@ -1,6 +1,9 @@
 class CfgUnitInsignia {
+    MACRO_UNITINSIGNIA(Cat);
     MACRO_UNITINSIGNIA(Doge);
     MACRO_UNITINSIGNIA(Emeritus);
+    MACRO_UNITINSIGNIA(Gandalf);
+    MACRO_UNITINSIGNIA(Goose);
     MACRO_UNITINSIGNIA(Homokomando);
     MACRO_UNITINSIGNIA(King);
     MACRO_UNITINSIGNIA(Logo);
@@ -9,6 +12,6 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(Obajtek);
     MACRO_UNITINSIGNIA(Powidz);
     MACRO_UNITINSIGNIA(Resurs);
+    MACRO_UNITINSIGNIA(Special);
     MACRO_UNITINSIGNIA(Terror);
-
 };
