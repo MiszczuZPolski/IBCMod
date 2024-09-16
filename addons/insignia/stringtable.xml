@@ -46,5 +46,11 @@
         <Key ID="STR_IBC_Insignia_Gandalf">
             <Polish>Gandalf</Polish>
         </Key>
+        <Key ID="STR_IBC_Insignia_Duck">
+            <Polish>Peace was never an option</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Mechanicus">
+            <Polish>Mechanicus</Polish>
+        </Key>
     </Package>
 </Project>
