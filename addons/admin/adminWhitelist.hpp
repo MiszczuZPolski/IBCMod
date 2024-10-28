@@ -10,5 +10,6 @@ cba_settings_whitelist[] = {
 
 enableDebugConsole[] = {
     ADMIN_MISZCZU,
-    ADMIN_ADAAMEK
+    ADMIN_ADAAMEK,
+    ADMIN_SETLER
 };
