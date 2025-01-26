@@ -1358,3 +1358,24 @@ force zen_editor_previews_enabled = true;
 force zen_editor_randomizeCopyPaste = false;
 force zen_editor_removeWatermark = true;
 force zen_editor_unitRadioMessages = 2;
+
+// OCAP - Main
+force OCAP_administratorList = "[]";
+force OCAP_enabled = true;
+force OCAP_isDebug = false;
+
+// OCAP - Recorder
+force OCAP_settings_autoStart = true;
+force OCAP_settings_excludeClassFromRecord = "['ACE_friesAnchorBar']";
+force OCAP_settings_excludeKindFromRecord = "['WeaponHolder']";
+force OCAP_settings_excludeMarkerFromRecord = "['SystemMarker_','ACE_BFT_']";
+force OCAP_settings_frameCaptureDelay = 1;
+force OCAP_settings_minMissionTime = 20;
+force OCAP_settings_minPlayerCount = 5;
+force OCAP_settings_preferACEUnconscious = true;
+force OCAP_settings_saveMissionEnded = true;
+force OCAP_settings_saveOnEmpty = true;
+force OCAP_settings_saveTag = "TvT";
+force OCAP_settings_trackTickets = true;
+force OCAP_settings_trackTimeInterval = 10;
+force OCAP_settings_trackTimes = false;
