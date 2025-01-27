@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="Compat_CSA38">
+        <Key ID="STR_IBC_Compat_CSA38_kar98k">
+            <English>Zajebisty Kar98k wersja IBC</English>
+        </Key>
+    </Package>
+</Project>
