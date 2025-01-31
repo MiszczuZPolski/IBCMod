@@ -18,7 +18,24 @@ class CfgVehicles {
 	};
 	class CSA38_zb26t: CSA38_StaticMGWeapon {
 		class Turrets: Turrets {
-			class MainTurret: MainTurret {};
+			class MainTurret: MainTurret {
+                class ViewOptics {
+                    initFov = 0.75;
+                    minFov = 0.25;
+                    maxFov = 1.25;
+                };
+            };
+		};
+	};
+    class CSA38_TKVZ24mg: CSA38_zb26t {
+		class Turrets: Turrets {
+			class MainTurret: MainTurret {
+                class ViewOptics {
+                    initFov = 0.75;
+                    minFov = 0.25;
+                    maxFov = 1.25;
+                };
+            };
 		};
 	};
 	class CSA38_MG34t: CSA38_zb26t {
@@ -27,6 +44,17 @@ class CfgVehicles {
 		};
 	};
 	class CSA38_MG34t2: CSA38_MG34t {
+		class Turrets: Turrets {
+			class MainTurret: MainTurret {
+                class ViewOptics {
+                    initFov = 0.75;
+                    minFov = 0.25;
+                    maxFov = 1.25;
+                };
+            };
+		};
+	};
+    class CSA38_MG34t3: CSA38_MG34t2 {
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {};
 		};

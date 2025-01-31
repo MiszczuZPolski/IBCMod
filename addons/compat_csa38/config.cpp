@@ -9,7 +9,7 @@ class CfgPatches {
 
         VERSION_CONFIG;
 
-        requiredAddons[] = {"CSA38II_data", "ibc_main"};
+        requiredAddons[] = {"csa38ii_weapons_c", "ibc_main"};
         skipWhenMissingDependencies = 1;
 
         units[] = {};
