@@ -1,8 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="IBC">
     <Package name="Compat_CSA38">
-        <Key ID="STR_IBC_Compat_CSA38_kar98k">
-            <English>Zajebisty Kar98k wersja IBC</English>
+        <Key ID="STR_IBC_Compat_CSA38_32_45ACP">
+            <English>.45 ACP 30Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_32_45ACP_DESC">
+            <English>Caliber: .45 ACP&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: M3 Grease Gun</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_32_9x19">
+            <English>9 mm 32Rnd Sten Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_32_9x19_DESC">
+            <English>Caliber: 9x19 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: Sten Mk I/I/II/III/IV/V/VI, Owen Mk I, MP38/40</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_32_9x19Blank">
+            <English>9 mm 32Rnd Blanks Sten Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_32_9x19Blank_DESC">
+            <English>Caliber: 9x19 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: Sten Mk I/I/II/III/IV/V/VI, Owen Mk I, MP38/40</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_33_9x19">
+            <English>9 mm 33Rnd Owen Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_33_9x19_DESC">
+            <English>Caliber: 9x19 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: Owen Mk I/II</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_5_13_9x99mmB">
+            <English>.55 Boys 5Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_5_13_9x99mmB_DESC">
+            <English>Caliber: .55 Boys&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: Boys Mk I</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_5x7_62_54R">
+            <English>7.62 mmR 5Rnd Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_5x7_62_54R_DESC">
+            <English>Caliber: 7.62x54 mmR&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: Mosin-Nagant</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrow">
+            <English>.25 ACP 8Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrow_DESC">
+            <English>Caliber: .25 ACP&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: vz. 36</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_6Rnd_38SW_Cylinder">
+            <English>.38 S&amp;W 6Rnd Cylinder</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_6Rnd_38SW_Cylinder_DESC">
+            <English>Caliber: .38 S&amp;W&lt;br/&gt;Rounds: 6&lt;br/&gt;Used in: Enfield No. 2 Mk I</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_5_5xMAS">
+            <English>7.5 mm MAS 5Rnd Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_5_5xMAS_DESC">
+            <English>Caliber: 7.5x54 mm MAS&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: MAS-36</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_63mm_10xMauser">
+            <English>7.63 mm Mauser 10Rnd Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_63mm_10xMauser_DESC">
+            <English>Caliber: 7.63x25 mm Mauser&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: C96</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrow">
+            <English>.32 ACP 7Rnd PPK Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrow_DESC">
+            <English>Caliber: .32 ACP&lt;br/&gt;Rounds: 7&lt;br/&gt;Used in: PPK</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrow">
+            <English>.32 ACP 8Rnd PP Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrow_DESC">
+            <English>Caliber: .32 ACP&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: PP</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrowning">
+            <English>.32 ACP 8Rnd vz. 27 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrowning_DESC">
+            <English>Caliber: .32 ACP&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: vz. 27</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrowningSD">
+            <English>.32 ACP 8Rnd vz. 27 SD Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrowningSD_DESC">
+            <English>Caliber: .32 ACP&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: vz. 27</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56R">
+            <English>.303 100Rnd Bren Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56R_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 100&lt;br/&gt;Used in: Bren Mk I/II (Drum)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56RAP">
+            <English>.303 100Rnd Bren AP Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56RAP_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 100&lt;br/&gt;Used in: Bren Mk I/II (Drum)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56RBlank">
+            <English>.303 100Rnd Bren Blanks Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_100x56RBlank_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 100&lt;br/&gt;Used in: Bren Mk I/II (Drum)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56R">
+            <English>.303 10Rnd Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56R_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: Lee-Enfield No. 1 Mk III/III, No.4 Mk I</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56RAP">
+            <English>.303 10Rnd AP Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56RAP_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: Lee-Enfield No. 1 Mk III/III, No.4 Mk I</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56Rblank">
+            <English>.303 10Rnd Blanks Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_10x56Rblank_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: Lee-Enfield No. 1 Mk III/III*, No.4 Mk I</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56R">
+            <English>.303 30Rnd Bren Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56R_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: Bren Mk I/II/III</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56RAP">
+            <English>.303 30Rnd Bren AP Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56RAP_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: Bren Mk I/II/III</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56Rblank">
+            <English>.303 30Rnd Bren Blanks Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_7_30x56Rblank_DESC">
+            <English>Caliber: .303&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: Bren Mk I/II/III</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser">
+            <English>7.92mm 20Rnd vz. 23 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
         </Key>
     </Package>
 </Project>
