@@ -210,8 +210,8 @@ class CfgMagazines {
         descriptionShort = CSTRING(8x56_25xMannlicherMG_DESC);
     };
     class csa38_9_MM_32xMP28: CSA38_Magazine {
-        displayName = CSTRING(9_MM_32xMP18);
-        descriptionShort = CSTRING(9_MM_32xMP18_DESC);
+        displayName = CSTRING(9_MM_32xMP28);
+        descriptionShort = CSTRING(9_MM_32xMP28_DESC);
     };
     class csa38_9_MM_20xMP28: csa38_9_MM_32xMP28 {
         displayName = CSTRING(9_MM_20xMP28);

@@ -140,10 +140,268 @@
             <English>Caliber: .303&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: Bren Mk I/II/III</English>
         </Key>
         <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser">
-            <English>7.92mm 20Rnd vz. 23 Mag</English>
+            <English>7.92 mm 20Rnd vz. 23 LMG Mag</English>
         </Key>
         <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_20xMauser2">
+            <English>7.92 mm 20Rnd vz. 31 AP LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_20xMauser2GE">
+            <English>7.92 mm 20Rnd S.m.K. AP LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauser2GE_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserCZ">
+            <English>7.92 mm 20Rnd vz. 23 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserCZ_DESC">
             <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
         </Key>
+          <Key ID="STR_IBC_Compat_CSA38_7_92_5xMauser2">
+            <English>7.92 mm 20Rnd vz. 31 AP Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_5xMauser2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+           <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserCZ2">
+            <English>7.92 mm 20Rnd vz. 31 AP Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserCZ2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserGE">
+            <English>7.92 mm 20Rnd s.S. LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_20xMauserGE_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_50xMauserMG">
+            <English>7.92 mm 50Rnd s.S. MG Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_50xMauserMG_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 50&lt;br/&gt;Used in: MG34</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_50xMauserMGAP">
+            <English>7.92 mm 50Rnd S.m.K. AP MG Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_50xMauserMGAP_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 50&lt;br/&gt;Used in: MG34</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_250xMauserMG">
+            <English>7.92 mm 250Rnd s.S. MG Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_250xMauserMG_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 250&lt;br/&gt;Used in: MG34</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_250xMauserMGAP">
+            <English>7.92 mm 250Rnd S.m.K. AP MG Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_250xMauserMGAP_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 250&lt;br/&gt;Used in: MG34</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_25xMauserMG">
+            <English>7.92 mm 25Rnd s.S. MG13 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_25xMauserMG_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 25&lt;br/&gt;Used in: MG13</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_25xMauserMGAP">
+            <English>7.92 mm 25Rnd S.m.K AP MG13 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_25xMauserMGAP_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 25&lt;br/&gt;Used in: MG13</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauser">
+            <English>7.92 mm 30Rnd vz. 23 LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauser_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauser2">
+            <English>7.92 mm 30Rnd vz. 31 AP LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauser2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_30xMauser2GE">
+            <English>7.92 mm 30Rnd S.m.K. AP LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_30xMauser2GE_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauserGE">
+            <English>7.92 mm 30Rnd s.S. LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_30xMauserGE_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 30&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_47xMauser">
+            <English>7.92 mm 47Rnd vz. 23 LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_47xMauser_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 47&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_47xMauserGE">
+            <English>7.92 mm 47Rnd s.S. LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_47xMauserGE_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 47&lt;br/&gt;Used in: vz. 26, ZB-26/30/30J, MG30(t)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_7_92_5xMauser3">
+            <English>7.92 mm 5Rnd vz. 28 Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_7_92_5xMauser3_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_5xMauserKAR">
+            <English>7.92 mm 5Rnd s.S. Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_5xMauserKAR_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_20xMauserKAR">
+            <English>7.92 mm 20Rnd s.S. Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_20xMauserKAR_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_20xMauserKAR2">
+            <English>7.92 mm 20Rnd S.m.K. AP Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_20xMauserKAR2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_7_92_5xMauserKAR2">
+            <English>7.92 mm 5Rnd S.m.K. AP Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_7_92_5xMauserKAR2_DESC">
+            <English>Caliber: 7.92x57 mm&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: vz. 98/16/23/24, ZB24, G98/24(t)/33, Kar98b/k</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_8_00_30xMauserMG">
+            <English> 8.56 mmR 25Rnd LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_8_00_30xMauserMG_DESC">
+            <English>Caliber: 8.56 mmR&lt;br/&gt;Rounds: 25&lt;br/&gt;Used in: 31M Machine Gun, MG30(o)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_8_00_5xMannlicher">
+            <English>8.56 mmR 5Rnd Clip</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_8_00_5xMannlicher_DESC">
+            <English>Caliber: 8.56 mmR&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: 31M Rifle, vz. 95, G95(o)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_8x56_25xMannlicherMG">
+            <English>8.56 mmR 25Rnd LMG Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_8x56_25xMannlicherMG_DESC">
+            <English>Caliber: 8.56 mmR&lt;br/&gt;Rounds: 25&lt;br/&gt;Used in: 31M Machine Gun, MG30(o)</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP28">
+            <English>9 mm 32Rnd MP28/II Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP28_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: MP28/II</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9_MM_20xMP28">
+            <English>9 mm 20Rnd MP28/II Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9_MM_20xMP28_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: MP28/II</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP18">
+            <English>9 mm 32Rnd Drum Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP18_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: P08, MP18/I</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP35">
+            <English>9 mm 32Rnd MP35/I Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9_MM_32xMP35_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: MP35/I</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9_MM_32xPARA">
+            <English>9 mm 32Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9_MM_32xPARA_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: MP38/40</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_9_mm_36xBrowning">
+            <English>.380 ACP 36Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_9_mm_36xBrowning_DESC">
+            <English>Caliber: .380 ACP&lt;br/&gt;Rounds: 36&lt;br/&gt;Used in: KP vz. 38</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_9_mm_96xBrowning">
+            <English>.380 ACP 96Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_9_mm_96xBrowning_DESC">
+            <English>Caliber: .380 ACP&lt;br/&gt;Rounds: 96&lt;br/&gt;Used in: KP vz. 38</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9mm_8xLuger">
+            <English>9 mm 8Rnd P08 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9mm_8xLuger_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: P08</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_9mm_8xPARA">
+            <English>9 mm 8Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_9mm_8xPARA_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: vz. 36</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_CSA38_9mm_9xBrowning">
+            <English>.380 ACP 9Rnd vz. 38 Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_CSA38_9mm_9xBrowning_DESC">
+            <English>Caliber: 9 mm&lt;br/&gt;Rounds: 9&lt;br/&gt;Used in: vz. 38</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_brenbedna">
+            <English>Bren Ammo Box</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_brenbedna2">
+            <English>Bren AP Ammo Box</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_FlareWhite26mm">
+            <English>26 mm 1Rnd White Flare vz. 23</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_FlareWhite26mm_DESC">
+            <English>Caliber: 26 mm&lt;br/&gt;Rounds: 1&lt;br/&gt;Used in: RP vz. 30</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_FlareGreen26mm">
+            <English>26 mm 1Rnd Green Flare vz. 23</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_FlareGreen26mm_DESC">
+            <English>Caliber: 26 mm&lt;br/&gt;Rounds: 1&lt;br/&gt;Used in: RP vz. 30</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_FlareRed26mm">
+            <English>26 mm 1Rnd Red Flare vz. 23</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_FlareRed26mm_DESC">
+            <English>Caliber: 26 mm&lt;br/&gt;Rounds: 1&lt;br/&gt;Used in: RP vz. 30</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_FlareYellow26mm">
+            <English>26 mm 1Rnd Yellow Flare vz. 23</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_FlareYellow26mm_DESC">
+            <English>Caliber: 26 mm&lt;br/&gt;Rounds: 1&lt;br/&gt;Used in: RP vz. 30</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_lk26bedna">
+            <English>LK vz. 26 Ammo Box</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_lk26bedna2">
+            <English>LK vz. 26 AP Ammo Box</English>
+        </Key>
+         <Key ID="STR_IBC_Compat_csa38_mas38mag">
+            <English>7.65 mm 32Rnd Mag</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_csa38_mas38mag_DESC">
+            <English>Caliber: 7.65x20 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: MAS-38</English>
+        </Key>                                                                                                                                                                                                                                                                                                                                                                                              
     </Package>
 </Project>
