@@ -84,3 +84,11 @@ ArmaScriptCompiler.exe
 #SQF-VM Server
 .vscode\sqfvm-lsp
 .vscode
+
+release/
+releases/
+target/
+*.pbo
+*.exe
+.hemttout/
+utils/**/*.txt

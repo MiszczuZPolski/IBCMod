@@ -1,5 +1,6 @@
 #include "\x\cba\addons\main\script_macros_common.hpp"
 #include "\x\cba\addons\xeh\script_xeh.hpp"
+#include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
 #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 
@@ -16,6 +17,9 @@
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
 #define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
+
+// Extension Macros
+#define EXT "ibc_mods"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
