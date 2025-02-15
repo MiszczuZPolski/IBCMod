@@ -37,10 +37,10 @@
         <Key ID="STR_IBC_Compat_CSA38_5x7_62_54R_DESC">
             <English>Caliber: 7.62x54 mmR&lt;br/&gt;Rounds: 5&lt;br/&gt;Used in: Mosin-Nagant</English>
         </Key>
-        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrow">
+        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrowning">
             <English>.25 ACP 8Rnd Mag</English>
         </Key>
-        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrow_DESC">
+        <Key ID="STR_IBC_Compat_CSA38_6_35mm_8xBrowning_DESC">
             <English>Caliber: .25 ACP&lt;br/&gt;Rounds: 8&lt;br/&gt;Used in: vz. 36</English>
         </Key>
         <Key ID="STR_IBC_Compat_CSA38_6Rnd_38SW_Cylinder">
@@ -61,10 +61,10 @@
         <Key ID="STR_IBC_Compat_CSA38_7_63mm_10xMauser_DESC">
             <English>Caliber: 7.63x25 mm Mauser&lt;br/&gt;Rounds: 10&lt;br/&gt;Used in: C96</English>
         </Key>
-        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrow">
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrowning">
             <English>.32 ACP 7Rnd PPK Mag</English>
         </Key>
-        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrow_DESC">
+        <Key ID="STR_IBC_Compat_CSA38_7_65mm_7xBrowning_DESC">
             <English>Caliber: .32 ACP&lt;br/&gt;Rounds: 7&lt;br/&gt;Used in: PPK</English>
         </Key>
         <Key ID="STR_IBC_Compat_CSA38_7_65mm_8xBrow">
@@ -402,6 +402,6 @@
         </Key>
         <Key ID="STR_IBC_Compat_csa38_mas38mag_DESC">
             <English>Caliber: 7.65x20 mm&lt;br/&gt;Rounds: 32&lt;br/&gt;Used in: MAS-38</English>
-        </Key>                                                                                                                                                                                                                                                                                                                                                                                              
+        </Key>
     </Package>
 </Project>
