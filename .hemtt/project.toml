@@ -10,7 +10,7 @@ include = [
     "README.md",
     "LICENSE.md",
     "ibc_logo.paa",
-    "ibc_mods.dll",
+    "ibc_mods_x64.dll",
 ]
 
 [version]
