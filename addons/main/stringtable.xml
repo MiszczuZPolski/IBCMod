@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="IBC">
     <Package name="Main">
-        <Key ID="STR_IBC_Main_Author">
-            <Polish>Inglorious Basterds Clan</Polish>
-        </Key>
-        <Key ID="STR_IBC_Main_URL">
-            <Polish>https://github.com/Theseus-Aegis/Mods</Polish>
-        </Key>
         <Key ID="STR_IBC_Main_Attributes">
             <English>IBC Attributes</English>
-            <German>IBC Attribute</German>
             <French>Attributs IBC</French>
+            <German>IBC Attribute</German>
         </Key>
-        <Key ID="STR_IBC_Main_Mission_Items_Name">
-            <English>IBC - Mission Items</English>
-        </Key>
-        <Key ID="STR_IBC_Main_Mission_Items_Supplies_Name">
-            <English>Supplies</English>
+        <Key ID="STR_IBC_Main_Author">
+            <Polish>Inglorious Basterds Clan</Polish>
         </Key>
         <Key ID="STR_IBC_Main_Mission_Items_Contraband_Name">
             <English>Contraband</English>
         </Key>
         <Key ID="STR_IBC_Main_Mission_Items_Electronics_Name">
             <English>Electronics</English>
+        </Key>
+        <Key ID="STR_IBC_Main_Mission_Items_Name">
+            <English>IBC - Mission Items</English>
+        </Key>
+        <Key ID="STR_IBC_Main_Mission_Items_Supplies_Name">
+            <English>Supplies</English>
         </Key>
     </Package>
 </Project>

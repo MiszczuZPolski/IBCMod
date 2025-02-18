@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="IBC">
     <Package name="Insignia">
-        <Key ID="STR_IBC_Insignia_Logo">
-            <Polish>IBC</Polish>
+        <Key ID="STR_IBC_Insignia_Cat">
+            <Polish>I Am Lost</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Doge">
             <Polish>Doge</Polish>
         </Key>
-        <Key ID="STR_IBC_Insignia_Michus">
-            <Polish>Michus</Polish>
+        <Key ID="STR_IBC_Insignia_Duck">
+            <Polish>Peace was never an option</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Emeritus">
             <Polish>Emeritus</Polish>
         </Key>
-        <Key ID="STR_IBC_Insignia_Powidz">
-            <Polish>Grey Wolves Powidz</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_King">
-            <Polish>Król Gór</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Homokomando">
-            <Polish>Homo Komando</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Meal">
-            <Polish>Meal Team 6</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Obajtek">
-            <Polish>PMC Orlen</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Resurs">
-            <Polish>Resurs</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Terror">
-            <Polish>Anti Terror Terror Club</Polish>
-        </Key>
-        <Key ID="STR_IBC_Insignia_Cat">
-            <Polish>I Am Lost</Polish>
+        <Key ID="STR_IBC_Insignia_Gandalf">
+            <Polish>Gandalf</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Goose">
             <Polish>Goose</Polish>
         </Key>
-        <Key ID="STR_IBC_Insignia_Special">
-            <Polish>Special</Polish>
+        <Key ID="STR_IBC_Insignia_Homokomando">
+            <Polish>Homo Komando</Polish>
         </Key>
-        <Key ID="STR_IBC_Insignia_Gandalf">
-            <Polish>Gandalf</Polish>
+        <Key ID="STR_IBC_Insignia_King">
+            <Polish>Król Gór</Polish>
         </Key>
-        <Key ID="STR_IBC_Insignia_Duck">
-            <Polish>Peace was never an option</Polish>
+        <Key ID="STR_IBC_Insignia_Logo">
+            <Polish>IBC</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Meal">
+            <Polish>Meal Team 6</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Mechanicus">
             <Polish>Mechanicus</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Michus">
+            <Polish>Michus</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Obajtek">
+            <Polish>PMC Orlen</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Powidz">
+            <Polish>Grey Wolves Powidz</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Resurs">
+            <Polish>Resurs</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Special">
+            <Polish>Special</Polish>
+        </Key>
+        <Key ID="STR_IBC_Insignia_Terror">
+            <Polish>Anti Terror Terror Club</Polish>
         </Key>
     </Package>
 </Project>
