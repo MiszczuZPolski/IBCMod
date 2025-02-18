@@ -1,4 +1,4 @@
-## Debug_console
+## Screenshot
 
 Screenshot mode for taking HUD free screenshots
 
