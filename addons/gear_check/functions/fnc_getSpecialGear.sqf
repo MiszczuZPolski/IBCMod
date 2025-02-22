@@ -14,21 +14,15 @@ private _missingClasses = [];
 {
     switch (tolower _x) do {
         case "medic": {
-            [["ACE_bodyBag_blue"], _unitItems,      3, "Bodybags (Blue)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_bodyBag_white"], _unitItems,     2, "Bodybags (White)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_adenosine"], _unitItems,         2, "Adenosine", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_epinephrine"], _unitItems,       2, "Epinephrine", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_morphine"], _unitItems,          2, "Morphine", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_elasticBandage"], _unitItems,    30, "Bandages (Elastic)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_packingBandage"], _unitItems,    20, "Bandages (Packing)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_quikclot"], _unitItems,          20, "Bandages (Quikclot)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_suture"], _unitItems,            40, "Sutures", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_salineIV"], _unitItems,          3, "Saline IV (1000ml)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_salineIV_500"], _unitItems,      6, "Saline IV (500ml)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_salineIV_250"], _unitItems,      4, "Saline IV (250ml)", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_splint"], _unitItems,            5, "Splints", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_tourniquet"], _unitItems,        8, "Tourniquets", _missing, _missingClasses] call FUNC(countItem);
-            [["ACE_surgicalKit"], _unitItems,       1, "Surgical Kit", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_epinephrine"], _unitItems,       2, "Epinefryny", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_morphine"], _unitItems,          2, "Morfiny", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_elasticBandage"], _unitItems,    30, "Bandaży elastycznych", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_plasmaIV"], _unitItems,          3, "Osocze IV (1000ml)", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_plasmaIV_500"], _unitItems,      6, "Osocze IV (500ml)", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_plasmaIV_250"], _unitItems,      4, "Osocze IV (250ml)", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_splint"], _unitItems,            5, "Szyn", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_tourniquet"], _unitItems,        8, "Staz", _missing, _missingClasses] call FUNC(countItem);
+            [["ACE_surgicalKit"], _unitItems,       1, "Zestaw do szycia ran", _missing, _missingClasses] call FUNC(countItem);
         };
         case "engineer": {
             [["ACE_wirecutter"], _unitItems,        1, "Wirecutter", _missing] call FUNC(countItem);
