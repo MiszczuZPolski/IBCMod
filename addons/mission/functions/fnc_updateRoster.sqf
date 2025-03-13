@@ -21,8 +21,8 @@ private _arr = units (group _unit);
 private _units = [];
 
 private _diaryGroup = _unit getVariable [QGVAR(diaryGroup), false];
-private _diaryORBAT = unit getVariable [QGVAR(diaryORBAT), false];
-private _unitsRecords = unit getVariable [QGVAR(unitsRecords), false];
+private _diaryORBAT = _unit getVariable [QGVAR(diaryORBAT), false];
+private _unitsRecords = _unit getVariable [QGVAR(unitsRecords), false];
 
 // this loop for Group
 {

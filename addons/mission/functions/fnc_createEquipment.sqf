@@ -30,16 +30,17 @@ private _grpStr = [
 _grpArr pushBack _grpStr;
 
 if (isPlayer _unit) then {
-	private _unitIdentity = [_unit] call FUNC(getIdentity);
+
+	[_unit] call FUNC(getIdentity) params["_rank", "_rankImage", "_name", "_role", "_weight"];
 	private _weaponsText = [_unit] call FUNC(getWeapons);
 	private _equipmentText = [_unit, _details] call FUNC(getEquipment);
 
 	private _grpText = [
-		'<img title="', _unitIdentity select 0, '" src="', _unitIdentity select 1, '" height="16"/>',
-		'<font color="#cba030" size="17" face="RobotoCondensed">', _unitIdentity select 2, '</font>',
-		'<font color="#757575" size="17" face="RobotoCondensed">', _unitIdentity select 3,'</font>',
+		'<img title="', _rank, '" src="',_rankImage, '" height="16"/>',
+		'<font color="#cba030" size="17" face="RobotoCondensed">', _name, '</font>',
+		'<font color="#757575" size="17" face="RobotoCondensed">', _role,'</font>',
 		'<font color="#757575" size="16" face="RobotoCondensed"> - W: </font>',
-		'<font  size="16" face="RobotoCondensed">', _unitIdentity select 4,'</font>',
+		'<font  size="16" face="RobotoCondensed">', _weight,'</font>',
 		'<br/>',
 		_weaponsText,
 		_equipmentText,
