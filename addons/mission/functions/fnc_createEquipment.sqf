@@ -5,17 +5,18 @@
  *	
  *	Arguments:
  *	0: The Unit <OBJECT>
+ *	1: details <BOOL>
  *	
  *	Return Value:
  *	String
  *	
  *	Example:
- *	[player] call dAn_fnc_createGroup
+ *	[player, details] call ibc_mission_fnc_createEquipment
  *	
  * 	Public: No
  */
 
-params[["_unit", ACE_player], '_details'];
+params [["_unit", ACE_player], ["_details", False]];
 
 private _grpArr = []; 
 

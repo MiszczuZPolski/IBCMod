@@ -10,15 +10,15 @@
  *	String
  *	
  *	Example:
- *	[player] call dAn_fnc_getEquipment
+ *	[player, False] call ibc_mission_fnc_getEquipment
  *	
  * 	Public: No
  */
 
- params[["_unit", ACE_player], "_details"];
+ params[["_unit", ACE_player], ["_details", False]];
 
 // begin of inline funcs
- createEntry = {
+ private _fnc_createEntry = {
 	_str = '';
 	private _displayName = getText(configFile >> "CfgWeapons" >>  _this select 0 >> "displayName");
 	private _picture = getText(configFile >> "CfgWeapons" >>  _this select 0 >> "picture");
@@ -44,7 +44,7 @@
 	_str
 };
 
-countInvertory = {
+private _fnc_countInvertory = {
 	private _noDuplicates = (_this select 0) arrayIntersect (_this select 0);
 	_result = [];
 	{
@@ -61,9 +61,9 @@ countInvertory = {
 
 	_itemsArr = [];
 	{
-		private _name = [(_x select 0), '32'] call createEntry;
+		private _name = [(_x select 0), '32'] call _fnc_createEntry;
 		_itemsArr pushBack _name;
-		private _count = [(_x select 1), '32'] call createEntry;
+		private _count = [(_x select 1), '32'] call _fnc_createEntry;
 		_itemsArr pushBack _count;
 	} forEach _result;
 
@@ -86,7 +86,7 @@ private _arr = [uniform _unit, vest _unit, backpack _unit, headgear _unit, hmd _
 // TODO: compat TFAR/ACRE...
 //_arr append ([] call acre_api_fnc_getCurrentRadioList); 
 {
-	_returnVal = [_x, '48'] call createEntry;
+	_returnVal = [_x, '48'] call _fnc_createEntry;
 	_equipmentArr pushBack _returnVal;
 	_equipmentArr pushBack " ";
 } forEach _arr;
@@ -103,7 +103,7 @@ if (_details) then {
 				'</font><br/>'
 			] joinString "");
 			if ((count _items) > 0) then {
-				 _itemsStr = [_items] call countInvertory;
+				 _itemsStr = [_items] call _fnc_countInvertory;
 				// systemChat format["getEquip: %1", _itemsStr];
 				_equipmentArr pushBack _itemsStr;
 			} else {
@@ -122,7 +122,7 @@ if (_details) then {
 
 			private _items = vestItems _unit;
 			if ((count _items) > 0) then {
-				private _itemsStr = [_items] call countInvertory;
+				private _itemsStr = [_items] call _fnc_countInvertory;
 				_equipmentArr pushBack _itemsStr;
 			} else {
 				_equipmentArr pushBack 'Brak';
@@ -141,7 +141,7 @@ if (_details) then {
 
 			private _items = backpackItems _unit;
 			if ((count _items) > 0) then {
-				private _itemsStr = [_items] call countInvertory;
+				private _itemsStr = [_items] call _fnc_countInvertory;
 				_equipmentArr pushBack _itemsStr;
 			} else {
 				_equipmentArr pushBack 'Brak';

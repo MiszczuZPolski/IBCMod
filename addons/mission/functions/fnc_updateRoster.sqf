@@ -10,23 +10,23 @@
  *	Bool
  *	
  *	Example:
- *	[player] call dAn_fnc_updateRoster
+ *	[player] call ibc_mission_fnc_updateRoster
  *	
  * 	Public: No
  */
 
-params[["_unit", ACE_player]];
+params [["_unit", ACE_player]];
 
 private _arr = units (group _unit);
 private _units = [];
 
-_diaryGroup = _unit getVariable "dAn_dairyGroup";
-_diaryORBAT = _unit getVariable "dAn_dairyORBAT";
-_unitsRecords = _unit getVariable "dAn_dairyRecords";
+private _diaryGroup = _unit getVariable [QGVAR(diaryGroup), false];
+private _diaryORBAT = unit getVariable [QGVAR(diaryORBAT), false];
+private _unitsRecords = unit getVariable [QGVAR(unitsRecords), false];
 
 // this loop for Group
 {
-	if(isPlayer _x) then {
+	if (isPlayer _x) then {
 		_eq = [_x, False] call FUNC(createEquipment);
 		_units pushBack _eq;
 	};
@@ -48,6 +48,3 @@ _orbat = [_unit] call FUNC(createORBAT);
 
 _unit setDiaryRecordText [["roster", _diaryGroup], ["Wyposażenie grupy", _group, ""]];
 _unit setDiaryRecordText [["roster", _diaryORBAT], ["ORBAT", _orbat, ""]];
-
-// return ?
-true

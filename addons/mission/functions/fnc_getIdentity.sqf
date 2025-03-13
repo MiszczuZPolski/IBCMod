@@ -10,18 +10,18 @@
  *	Array - [_rank, _rankImage, _name, _role, _weight]
  *	
  *	Example:
- *	[player] call dAn_fnc_getIdentity
+ *	[player] call ibc_mission_fnc_getIdentity
  *	
  * 	Public: No
  */
 
-params[["_unit", ACE_player]];
+params [["_unit", ACE_player]];
 
 private _arr = [];
 
 private _rank = rank _unit;
 private _name = [" ", name _unit] joinString "";
-private _role = if (roleDescription _unit != "") then [{roleDescription _unit},{getText(configFile >> "CfgVehicles" >> typeOf _unit >> "displayName")}];
+private _role = if (roleDescription _unit != "") then [{roleDescription _unit}, {getText(configFile >> "CfgVehicles" >> typeOf _unit >> "displayName")}];
 private _weight = [_unit] call ace_common_fnc_getWeight;
 
 //fix the role description

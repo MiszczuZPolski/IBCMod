@@ -10,12 +10,12 @@
  *	String - can be direcly inserted into diary, empty if not weaponAccessories
  *	
  *	Example:
- *	[player] call dAn_fnc_getPrimaryWeapon
+ *	[player] call ibc_mission_fnc_getWeapons
  *	
  * 	Public: No
  */
 
-params[["_unit", ACE_player]];
+params [["_unit", ACE_player]];
 
 private _weaponsText = "";
 
@@ -105,5 +105,6 @@ if (handgunWeapon _unit != "") then {
 };
 
 _weaponsText = [_primaryWeaponText, _secondaryWeaponText, _handgunWeaponText] joinString "";
+
 // return
 _weaponsText

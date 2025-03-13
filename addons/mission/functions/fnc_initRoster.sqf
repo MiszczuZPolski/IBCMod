@@ -49,9 +49,12 @@ _orbat = [_unit] call FUNC(createORBAT);
 _diaryGroup = _unit createDiaryRecord ["roster", ["Wyposażenie grupy", _units, ""]];
 _diaryORBAT = _unit createDiaryRecord ["roster", ["ORBAT", _orbat, ""]];
 
-_unit setVariable ["dAn_dairyGroup", _diaryGroup];
-_unit setVariable ["dAn_dairyORBAT", _diaryORBAT];
-_unit setVariable ["dAn_dairyRecords", _unitsRecords];
+_unit setVariable [QGVAR(diaryGroup), _diaryGroup];
+//SETVAR(_unit,diaryGroup, _diaryGroup);
+_unit setVariable [QGVAR(diaryORBAT), _diaryORBAT];
+//SETVAR(_unit,diaryORBAT, _diaryORBAT);
+_unit setVariable [QGVAR(unitsRecords), _unitsRecords];
+//SETVAR(_unit,unitsRecords, _unitsRecords);
 
 // setup update approx. every 1 sec.
 [

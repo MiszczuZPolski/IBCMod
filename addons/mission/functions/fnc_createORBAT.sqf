@@ -10,12 +10,12 @@
  *	String
  *	
  *	Example:
- *	[player] call dAn_fnc_createORBAT
+ *	[player] call ibc_mission_fnc_createORBAT
  *	
  * 	Public: No
  */
 
-params[["_unit", ACE_player]];
+params [["_unit", ACE_player]];
 
 // **** ORBAT ****
 private  _groups = [];
