@@ -32,7 +32,7 @@ private _unitsRecords = [];
 } forEach _arr;
 
 // loop for individual 
-for "_i" from ((count _arr)-1) to 0 step -1 do {
+for "_i" from ((count _arr) - 1) to 0 step -1 do {
 	if (isPlayer (_arr select _i)) then {
 		// systemChat str name _arr select _i;
 		private _eq = [_arr select _i, True] call FUNC(createEquipment);

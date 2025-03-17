@@ -33,8 +33,8 @@ private _unitsRecords = _unit getVariable [QGVAR(unitsRecords), false];
 } forEach _arr;
 
 // this loop for individual
-for "_i" from ((count _arr)-1) to 0 step -1 do {
-	if(isPlayer (_arr select _i)) then {
+for "_i" from ((count _arr) -1 ) to 0 step -1 do {
+	if (isPlayer (_arr select _i)) then {
 		private _eq = [_arr select _i, True] call FUNC(createEquipment);
 		// systemChat format["%1, %2", _i, (name (_arr select _i))];
 		

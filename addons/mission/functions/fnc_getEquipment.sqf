@@ -5,6 +5,7 @@
  *	
  *	Arguments:
  *	0: The Unit <OBJECT>
+ *	1: Details <BOOL>
  *	
  *	Return Value:
  *	String
@@ -15,7 +16,7 @@
  * 	Public: No
  */
 
- params[["_unit", ACE_player], ["_details", False]];
+ params [["_unit", ACE_player], ["_details", False]];
 
 // begin of inline funcs
  private _fnc_createEntry = {

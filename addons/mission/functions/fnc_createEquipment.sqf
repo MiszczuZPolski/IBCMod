@@ -5,7 +5,7 @@
  *	
  *	Arguments:
  *	0: The Unit <OBJECT>
- *	1: details <BOOL>
+ *	1: Details <BOOL>
  *	
  *	Return Value:
  *	String
@@ -31,7 +31,7 @@ _grpArr pushBack _grpStr;
 
 if (isPlayer _unit) then {
 
-	[_unit] call FUNC(getIdentity) params["_rank", "_rankImage", "_name", "_role", "_weight"];
+	[_unit] call FUNC(getIdentity) params ["_rank", "_rankImage", "_name", "_role", "_weight"];
 	private _weaponsText = [_unit] call FUNC(getWeapons);
 	private _equipmentText = [_unit, _details] call FUNC(getEquipment);
 

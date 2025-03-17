@@ -29,7 +29,7 @@ private _str = [
 	'/',
 	playableSlotsNumber side _unit, // all playable slots, I think...
 	'<br/><br/>'
-]joinString "";
+] joinString "";
 
 _arr pushBack _str;
 // *****************************
@@ -39,7 +39,7 @@ _arr pushBack _str;
 	if (isPlayer _x) then {
 		_groups pushBackUnique group _x;
 	};
-}forEach playableUnits;
+} forEach playableUnits;
 
 // get orbat text
 {
@@ -62,7 +62,7 @@ _arr pushBack _str;
 	} forEach (units _x);
 
 	 _arr pushBack '<br/>';
-}forEach _groups;
+} forEach _groups;
 
 private _orbat = _arr joinString "";
 
