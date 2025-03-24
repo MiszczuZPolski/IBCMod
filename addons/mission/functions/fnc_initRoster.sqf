@@ -38,7 +38,7 @@ for "_i" from ((count _arr) - 1) to 0 step -1 do {
 		private _eq = [_arr select _i, True] call FUNC(createEquipment);
 		//systemChat (name (_arr select _i));
 		
-		_var = _unit createDiaryRecord ["roster", [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""]];
+		_var = _unit createDiaryRecord ["roster", [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""], taskNull,"NONE", false];
 		_unitsRecords pushBack _var;
 	};
 };
@@ -46,8 +46,8 @@ for "_i" from ((count _arr) - 1) to 0 step -1 do {
 _units = _units joinString "";
 _orbat = [_unit] call FUNC(createORBAT);
 
-_diaryGroup = _unit createDiaryRecord ["roster", ["Wyposażenie grupy", _units, ""]];
-_diaryORBAT = _unit createDiaryRecord ["roster", ["ORBAT", _orbat, ""]];
+_diaryGroup = _unit createDiaryRecord ["roster", ["Wyposażenie grupy", _units, ""], taskNull, "NONE", false];
+_diaryORBAT = _unit createDiaryRecord ["roster", ["ORBAT", _orbat, ""], taskNull, "NONE", false];
 
 _unit setVariable [QGVAR(diaryGroup), _diaryGroup];
 //SETVAR(_unit,diaryGroup, _diaryGroup);

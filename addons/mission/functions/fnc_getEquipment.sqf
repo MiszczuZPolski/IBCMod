@@ -36,7 +36,7 @@
 	if (_displayName != "" || _picture != "") then {
 		// if has .paa then array will have 2 elements, if don't means it dosen't
 		private _condition = count(_picture splitString "."); 
-		private _picture = if(_condition > 1) then [{_picture}, {[_picture, ".paa"] joinString ""}];
+		private _picture = if (_condition > 1) then [{_picture}, {[_picture, ".paa"] joinString ""}];
 		_str = ['<img title="', _displayName, '" src="', _picture, '" height="', _this select 1, '"/>'] joinString "";
 	} else {
 		_str = ['x', _this select 0, ', ' ] joinString "";
