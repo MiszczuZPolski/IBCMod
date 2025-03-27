@@ -2,16 +2,16 @@
 /*
  *	Author: D.Anderson
  *	Gets weapon and any attachment of unit, gets its name and image and crates string with HTML image compatible with diary records
- *	
+ *
  *	Arguments:
  *	0: The Unit <OBJECT>
- *	
+ *
  *	Return Value:
  *	String - can be direcly inserted into diary, empty if not weaponAccessories
- *	
+ *
  *	Example:
  *	[player] call ibc_mission_fnc_getWeapons
- *	
+ *
  * 	Public: No
  */
 
@@ -61,12 +61,12 @@ if (secondaryWeapon _unit != "") then {
 		'<font color="#757575" face="RobotoCondensed">',
 		'Broń dodatkowa: ',
 		'</font>',
-		getText(configFile >> "CfgWeapons" >> secondaryWeapon _unit >> "displayName"),
+		getText (configFile >> "CfgWeapons" >> secondaryWeapon _unit >> "displayName"),
 		'<br/>'
 	] joinString "");
 	{
-		private _displayName = getText(configFile >> "CfgWeapons" >> _x >> "displayName");
-		private _picture = getText(configFile >> "CfgWeapons" >> _x >> "picture");
+		private _displayName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
+		private _picture = getText (configFile >> "CfgWeapons" >> _x >> "picture");
 
 		private _str = ['<img title="', _displayName, '" src="', _picture, '" height="64"/>  '] joinString "";
 		_secondaryWeaponArr pushBack _str;
@@ -89,12 +89,12 @@ if (handgunWeapon _unit != "") then {
 		'<font color="#757575" face="RobotoCondensed">',
 		'Broń boczna: ',
 		'</font>',
-		getText(configFile >> "CfgWeapons" >> handgunWeapon _unit >> "displayName"),
+		getText (configFile >> "CfgWeapons" >> handgunWeapon _unit >> "displayName"),
 		'<br/>'
 	] joinString "");
 	{
-		private _displayName = getText(configFile >> "CfgWeapons" >> _x >> "displayName");
-		private _picture = getText(configFile >> "CfgWeapons" >> _x >> "picture");
+		private _displayName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
+		private _picture = getText (configFile >> "CfgWeapons" >> _x >> "picture");
 
 		private _str = ['<img title="', _displayName, '" src="', _picture, '" height="32"/>  '] joinString "";
 		_handgunWeaponArr pushBack _str;

@@ -2,23 +2,23 @@
 /*
  *	Author: D.Anderson
  *	Creates Group in Roster Subject
- *	
+ *
  *	Arguments:
  *	0: The Unit <OBJECT>
  *	1: Details <BOOL>
- *	
+ *
  *	Return Value:
  *	String
- *	
+ *
  *	Example:
  *	[player, details] call ibc_mission_fnc_createEquipment
- *	
+ *
  * 	Public: No
  */
 
 params [["_unit", ACE_player], ["_details", False]];
 
-private _grpArr = []; 
+private _grpArr = [];
 
 private _grpStr = [
 	'<font face="RobotoCondensedBold" size="18">',
@@ -53,5 +53,4 @@ if (isPlayer _unit) then {
 
 private _group = _grpArr joinString "";
 
-// return 
-_group;
+_group

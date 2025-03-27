@@ -2,16 +2,16 @@
 /*
  *	Author: D.Anderson
  *	Creates ORBAT in Roster Subject
- *	
+ *
  *	Arguments:
  *	0: The Unit <OBJECT>
- *	
+ *
  *	Return Value:
  *	String
- *	
+ *
  *	Example:
  *	[player] call ibc_mission_fnc_createORBAT
- *	
+ *
  * 	Public: No
  */
 
@@ -25,9 +25,9 @@ private  _arr = [];
 private _str = [
 	'<font face="RobotoCondensedBold" color="#cba030">',
 	'Gracze: </font>',
-	((side _unit) countSide allPlayers), // connceted player to side, don't count Zeuses, I think...
+	((side _unit) countSide allPlayers),
 	'/',
-	playableSlotsNumber side _unit, // all playable slots, I think...
+	playableSlotsNumber side _unit,
 	'<br/><br/>'
 ] joinString "";
 
@@ -46,7 +46,7 @@ _arr pushBack _str;
 	private  _name = groupId _x;
 	private  _text = ['<font face="RobotoCondensedBold">', _name, '</font><br/>' ] joinString "";
 	_arr pushBack _text;
-	// each group member
+
 	{
 		if (isPlayer _x) then {
 			private  _unitIdentity = [_x] call FUNC(getIdentity);
@@ -61,10 +61,10 @@ _arr pushBack _str;
 		};
 	} forEach (units _x);
 
-	 _arr pushBack '<br/>';
+	_arr pushBack '<br/>';
 } forEach _groups;
 
 private _orbat = _arr joinString "";
 
-// return 
-_orbat;
+// return
+_orbat

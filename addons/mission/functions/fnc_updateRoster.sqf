@@ -2,16 +2,16 @@
 /*
  *	Author: D.Anderson
  *	Lorem
- *	
+ *
  *	Arguments:
  *	0: The Unit <OBJECT>
- *	
+ *
  *	Return Value:
  *	Bool
- *	
+ *
  *	Example:
  *	[player] call ibc_mission_fnc_updateRoster
- *	
+ *
  * 	Public: No
  */
 
@@ -27,7 +27,7 @@ private _unitsRecords = _unit getVariable [QGVAR(unitsRecords), false];
 // this loop for Group
 {
 	if (isPlayer _x) then {
-		_eq = [_x, False] call FUNC(createEquipment);
+		_eq = [_x, false] call FUNC(createEquipment);
 		_units pushBack _eq;
 	};
 } forEach _arr;
@@ -39,7 +39,7 @@ for "_i" from ((count _arr) -1 ) to 0 step -1 do {
 	if (isPlayer (_arr select _i)) then {
 		private _eq = [_arr select _i, True] call FUNC(createEquipment);
 		// systemChat format["%1, %2", _i, (name (_arr select _i))];
-		
+
 		// this maybe buggy, cuz players can change slots etc disconnect or connect, should delete and recreate?
 		// _unit setDiaryRecordText [["roster", _unitsRecords select _i ], [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""]];
 	};
