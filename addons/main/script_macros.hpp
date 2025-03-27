@@ -21,6 +21,14 @@
 // Extension Macros
 #define EXT "ibc_mods"
 
+#define SLOT_GOGGLES 603
+#define SLOT_HEADGEAR 605
+#define SLOT_MAP 608
+#define SLOT_COMPASS 609
+#define SLOT_WATCH 610
+#define SLOT_RADIO 611
+#define SLOT_GPS 612
+
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
     #define PREP(fncName) DFUNC(fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
