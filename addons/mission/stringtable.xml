@@ -61,5 +61,9 @@
             <English>How long will intro last</English>
             <Polish>Jak długo potrwa intro</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_Roster_Inventory">
+            <English>Inventory</English>
+            <Polish>Wyposażenie</Polish>
+        </Key>
     </Package>
 </Project>

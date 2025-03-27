@@ -17,7 +17,7 @@
 
 params [["_unit", ACE_player]];
 
-_unit createDiarySubject ["roster", "Wyposażenie"];
+_unit createDiarySubject ["roster", LLSTRING(Roster_Inventory)];
 
 private _arr = units (group _unit);
 private _units = [];
@@ -38,7 +38,7 @@ for "_i" from ((count _arr) - 1) to 0 step -1 do {
 		private _eq = [_arr select _i, true] call FUNC(createEquipment);
 		//systemChat (name (_arr select _i));
 
-		_var = _unit createDiaryRecord ["roster", [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
+		_var = _unit createDiaryRecord ["roster", [[LLSTRING(Roster_Inventory), (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
 		_unitsRecords pushBack _var;
 	};
 };

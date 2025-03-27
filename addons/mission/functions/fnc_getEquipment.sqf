@@ -78,7 +78,7 @@ private _equipmentText = "";
 private _equipmentArr = [];
 _equipmentArr pushBack ([
 	'<font color="#757575" face="RobotoCondensed">',
-	'Wyposażenie: ',
+	LLSTRING(Roster_Inventory),
 	'</font><br/><br/>'
 ] joinString "");
 
