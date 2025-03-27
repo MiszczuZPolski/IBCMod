@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="No_More_Aircraft_Bouncing">
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_SettingCategory_ParticleEffects">
+            <English>Particle Effects</English>
+        </Key>
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_SettingInfo_pfxHelicopters">
+            <English>Enables extra PFX created from helicopter wrecks.</English>
+        </Key>
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_SettingInfo_pfxPlanes">
+            <English>Enables extra PFX created from plane wrecks.</English>
+        </Key>
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_SettingName_pfxHelicopters">
+            <English>Extra particle effects - Helicopters</English>
+        </Key>
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_SettingName_pfxPlanes">
+            <English>Extra particle effects - Planes</English>
+        </Key>
+        <Key ID="STR_IBC_No_More_Aircraft_Bouncing_Title">
+            <English>IBC - No More Aircraft Bouncing</English>
+        </Key>
+    </Package>
+</Project>
