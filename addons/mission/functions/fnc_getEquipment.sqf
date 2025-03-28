@@ -78,7 +78,7 @@ private _equipmentText = "";
 private _equipmentArr = [];
 _equipmentArr pushBack ([
 	'<font color="#757575" face="RobotoCondensed">',
-	LLSTRING(Roster_Inventory),
+	LLSTRING(Roster_Inventory), ':',
 	'</font><br/><br/>'
 ] joinString "");
 
@@ -100,7 +100,7 @@ if (_details) then {
 	if ((uniform _unit) != "") then {
 		_equipmentArr pushBack ([
 				'<font color="#757575" face="RobotoCondensed">',
-				'Mundur:',
+				LLSTRING(Roster_Uniform), ':',
 				'</font><br/>'
 			] joinString "");
 			if ((count _items) > 0) then {
@@ -108,7 +108,7 @@ if (_details) then {
 				// systemChat format["getEquip: %1", _itemsStr];
 				_equipmentArr pushBack _itemsStr;
 			} else {
-				_equipmentArr pushBack 'Brak';
+				_equipmentArr pushBack LLSTRING(Roster_None);
 			};
 	};
 
@@ -117,7 +117,7 @@ if (_details) then {
 		_equipmentArr pushBack ([
 				'<br/><br/>',
 				'<font color="#757575" face="RobotoCondensed">',
-				'Kamizelka:',
+				LLSTRING(Roster_Vest), ' :',
 				'</font><br/>'
 			] joinString "");
 
@@ -126,7 +126,7 @@ if (_details) then {
 				private _itemsStr = [_items] call _fnc_countInvertory;
 				_equipmentArr pushBack _itemsStr;
 			} else {
-				_equipmentArr pushBack 'Brak';
+				_equipmentArr pushBack LLSTRING(Roster_None);
 			};
 	};
 
@@ -136,7 +136,7 @@ if (_details) then {
 		_equipmentArr pushBack ([
 				'<br/><br/>',
 				'<font color="#757575" face="RobotoCondensed">',
-				'Plecak:',
+				LLSTRING(Roster_Backpack), ':',
 				'</font><br/>'
 			] joinString "");
 
@@ -145,7 +145,7 @@ if (_details) then {
 				private _itemsStr = [_items] call _fnc_countInvertory;
 				_equipmentArr pushBack _itemsStr;
 			} else {
-				_equipmentArr pushBack 'Brak';
+				_equipmentArr pushBack LLSTRING(Roster_None);
 			};
 	};
 };

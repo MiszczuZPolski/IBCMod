@@ -24,7 +24,7 @@ private  _arr = [];
 //get number of connceted players
 private _str = [
 	'<font face="RobotoCondensedBold" color="#cba030">',
-	'Gracze: </font>',
+	LLSTRING(Roster_Players), ': </font>',
 	((side _unit) countSide allPlayers),
 	'/',
 	playableSlotsNumber side _unit,

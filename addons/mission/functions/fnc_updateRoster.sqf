@@ -49,5 +49,5 @@ for "_i" from ((count _arr) -1 ) to 0 step -1 do {
 _group = _units joinString "";
 _orbat = [_unit] call FUNC(createORBAT);
 
-_unit setDiaryRecordText [["roster", _diaryGroup], ["Wyposażenie grupy", _group, ""]];
+_unit setDiaryRecordText [["roster", _diaryGroup], [LLSTRING(Roster_Group_Inventory), _group, ""]];
 _unit setDiaryRecordText [["roster", _diaryORBAT], ["ORBAT", _orbat, ""]];

@@ -30,7 +30,7 @@ if (primaryWeapon _unit != "") then {
 
 	_primaryWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Broń główna: ',
+		LLSTRING(Roster_Primary), ': ',
 		'</font>',
 		getText(configFile >> "CfgWeapons" >> primaryWeapon _unit >> "displayName"),
 		'<br/>'
@@ -59,7 +59,7 @@ if (secondaryWeapon _unit != "") then {
 
 	_secondaryWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Broń dodatkowa: ',
+		LLSTRING(Roster_Secondary), ': ',
 		'</font>',
 		getText (configFile >> "CfgWeapons" >> secondaryWeapon _unit >> "displayName"),
 		'<br/>'
@@ -87,7 +87,7 @@ if (handgunWeapon _unit != "") then {
 
 	_handgunWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Broń boczna: ',
+		LLSTRING(Roster_Handgun), ': ',
 		'</font>',
 		getText (configFile >> "CfgWeapons" >> handgunWeapon _unit >> "displayName"),
 		'<br/>'

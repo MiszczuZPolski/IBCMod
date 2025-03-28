@@ -46,7 +46,7 @@ for "_i" from ((count _arr) - 1) to 0 step -1 do {
 _units = _units joinString "";
 _orbat = [_unit] call FUNC(createORBAT);
 
-_diaryGroup = _unit createDiaryRecord ["roster", ["Wyposażenie grupy", _units, ""], taskNull, "NONE", false];
+_diaryGroup = _unit createDiaryRecord ["roster", [LLSTRING(Roster_Group_Inventory), _units, ""], taskNull, "NONE", false];
 _diaryORBAT = _unit createDiaryRecord ["roster", ["ORBAT", _orbat, ""], taskNull, "NONE", false];
 
 _unit setVariable [QGVAR(diaryGroup), _diaryGroup];
