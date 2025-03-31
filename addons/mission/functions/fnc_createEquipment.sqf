@@ -20,10 +20,10 @@ params [["_unit", ACE_player], ["_details", false]];
 
 private _grpArr = [];
 
-if(_details) then {
-		_grpArr pushBack LLSTRING(Roster_Information);
-		_grpArr pushBack '<br/><br/>';
-	};
+if (_details) then {
+    _grpArr pushBack LLSTRING(Roster_Information);
+    _grpArr pushBack '<br/><br/>';
+};
 
 
 private _grpStr = [
