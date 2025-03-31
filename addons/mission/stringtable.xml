@@ -45,6 +45,10 @@
             <English>Inventory</English>
             <Polish>Wyposażenie</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_Roster_Information">
+            <English>This page is NOT updating... This is only initial equipment list.</English>
+            <Polish>Ta strona NIE jest aktualizowana... To tylko początkowa lista wyposażenia.</Polish>
+        </Key>
         <Key ID="STR_IBC_Mission_Roster_None">
             <English>None</English>
             <Polish>Brak</Polish>

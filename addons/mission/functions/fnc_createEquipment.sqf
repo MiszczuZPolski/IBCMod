@@ -16,9 +16,15 @@
  * 	Public: No
  */
 
-params [["_unit", ACE_player], ["_details", False]];
+params [["_unit", ACE_player], ["_details", false]];
 
 private _grpArr = [];
+
+if(_details) then {
+		_grpArr pushBack LLSTRING(Roster_Information);
+		_grpArr pushBack '<br/><br/>';
+	};
+
 
 private _grpStr = [
 	'<font face="RobotoCondensedBold" size="18">',
