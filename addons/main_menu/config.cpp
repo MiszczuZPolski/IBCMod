@@ -17,5 +17,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "CfgMainMenuSpotlight.hpp"
-#include "CfgMenus.hpp"
 #include "gui.hpp"

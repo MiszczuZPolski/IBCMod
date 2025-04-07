@@ -4,7 +4,7 @@ class CfgMainMenuSpotlight {
         text = CSTRING(SpotlightJoin);
         textIsQuote = 0;
         picture = QUOTE(\z\ibc\addons\main\ui\ibc_logo.paa);
-        action = QUOTE(_this call (uiNamespace getVariable QQFUNC(join)));
+        action = "connectToServer ['94.130.68.96', 2302, '']";
         actionText = CSTRING(SpotlightHeader);
         condition = QUOTE(true);
     };
