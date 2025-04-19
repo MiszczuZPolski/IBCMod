@@ -4,7 +4,7 @@
 if (!hasInterface) exitWith {};
 
 ["CBA_settingsInitialized", {
-    call FUNC(equipmentList);
+    call FUNC(initRoster);
 }] call CBA_fnc_addEventHandler;
 
 ["featureCamera", {
