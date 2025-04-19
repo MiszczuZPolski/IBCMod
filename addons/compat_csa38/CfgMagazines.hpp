@@ -1,9 +1,9 @@
 class CfgMagazines {
-	class Default {};
+    class Default {};
     class CA_Magazine: Default {};
     class CSA38_PistolMagazine: CA_Magazine {};
-	class CSA38_Magazine: Default {};
-	class csa38_32_45ACP: CSA38_Magazine {
+    class CSA38_Magazine: Default {};
+    class csa38_32_45ACP: CSA38_Magazine {
         displayName = CSTRING(32_45ACP);
         descriptionShort = CSTRING(32_45ACP_DESC);
     };
