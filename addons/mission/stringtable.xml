@@ -29,6 +29,50 @@
             <English>Module handling intro display</English>
             <Polish>Moduł obsługujący wyświetlanie intro</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_Roster_Backpack">
+            <English>Backpack</English>
+            <Polish>Plecak</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Group_Inventory">
+            <English>Group Inventory</English>
+            <Polish>Wyposażenie Grupy</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Handgun">
+            <English>Handgun</English>
+            <Polish>Broń boczna</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Information">
+            <English>This page is NOT updating... This is only initial equipment list.</English>
+            <Polish>Ta strona NIE jest aktualizowana... To tylko początkowa lista wyposażenia.</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Inventory">
+            <English>Inventory</English>
+            <Polish>Wyposażenie</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_None">
+            <English>None</English>
+            <Polish>Brak</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Players">
+            <English>Players</English>
+            <Polish>Gracze</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Primary">
+            <English>Primary weapon</English>
+            <Polish>Broń główna</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Secondary">
+            <English>Additional weapon</English>
+            <Polish>Broń dodatkowa</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Uniform">
+            <English>Uniform</English>
+            <Polish>Mundur</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Roster_Vest">
+            <English>Vest</English>
+            <Polish>Kamizelka</Polish>
+        </Key>
         <Key ID="STR_IBC_Mission_Setting_Enable">
             <English>Enable anti-cheat</English>
             <Polish>Włącz anty-cheat</Polish>

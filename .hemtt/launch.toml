@@ -11,3 +11,12 @@ extends = "default"
 workshop = [
     "641305739", # CSA38's Workshop ID
 ]
+
+[rhs]
+extends = "default"
+workshop = [
+    "843577117", # RHSUSAF's Workshop ID
+    "843425103", # RHSAFRF's Workshop ID
+    "843593391", # RHSGREF's Workshop ID
+    "843632231" # RHSSAF's Workshop ID
+]

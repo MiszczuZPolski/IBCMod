@@ -500,7 +500,7 @@ force ace_ai_assignNVG = true;
 force acex_sitting_enable = true;
 
 // ACE Symulacja fragmentacji
-force ace_frag_enabled = true;
+force ace_frag_enabled = false;
 force ace_frag_reflectionsEnabled = false;
 force ace_frag_spallEnabled = false;
 force ace_frag_spallIntensity = 1;
