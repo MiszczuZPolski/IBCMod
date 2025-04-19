@@ -24,10 +24,10 @@ private _playerInVehicle = true;
 private _allPlayers = allPlayers;
 
 if GVAR(ignoreNonPlayerVehicles) then {
-	_playerInVehicle = {
-		if (_x in _allPlayers) exitWith { true };
-		false;
-	} forEach (crew _aircraft);
+    _playerInVehicle = {
+        if (_x in _allPlayers) exitWith { true };
+        false;
+    } forEach (crew _aircraft);
 };
 
 if (!_playerInVehicle && !(GVAR(stateThreshold) > _state) && !(alive _aircraft) && (_selection != "")) exitWith { _damage };
