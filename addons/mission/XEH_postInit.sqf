@@ -7,6 +7,21 @@ if (!hasInterface) exitWith {};
     call FUNC(initRoster);
 }] call CBA_fnc_addEventHandler;
 
+["ace_unconscious", {
+    if !GVAR(spectatorInUncon) exitWith {};
+
+    params ["_unit", "_state"];
+
+    if (_state) then {
+        [{
+            [_this select 0, true, false] call ACEFUNC(spectator,setSpectator);
+        }, [_state], 2.5] call CBA_fnc_waitAndExecute;
+    } else {
+        [_state, true, false] call ACEFUNC(spectator,setSpectator);
+    };
+    
+}] call CBA_fnc_addEventHandler;
+
 ["featureCamera", {
     if !GVAR(checkArsenal) exitWith {};
 

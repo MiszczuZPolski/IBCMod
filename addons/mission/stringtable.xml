@@ -89,6 +89,14 @@
             <English>Whitelist for players privileged to arsenal</English>
             <Polish>Biała lista graczy mogących korzystać z arsenału</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_Setting_SpectatorInUncon">
+            <English>Enable specator</English>
+            <Polish>Włącz obserwatora</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_Setting_SpectatorInUncon_Description">
+            <English>Enable specator if player is unconscious</English>
+            <Polish>Uruchamia obserwatora jeżeli gracz jest w stanie nieprzytomności</Polish>
+        </Key>
         <Key ID="STR_IBC_Mission_Terrain">
             <English>Terrain</English>
             <Polish>Teren</Polish>
