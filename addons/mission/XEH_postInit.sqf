@@ -14,12 +14,13 @@ if (!hasInterface) exitWith {};
 
     if (_state) then {
         [{
-            [_this select 0, true, false] call ACEFUNC(spectator,setSpectator);
+            params ["_state"];
+            [_state, true, false] call ACEFUNC(spectator,setSpectator);
         }, [_state], 2.5] call CBA_fnc_waitAndExecute;
     } else {
         [_state, true, false] call ACEFUNC(spectator,setSpectator);
     };
-    
+
 }] call CBA_fnc_addEventHandler;
 
 ["featureCamera", {
