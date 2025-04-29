@@ -26,10 +26,10 @@ private _eq = "";
 
 // loop for Group
 private _grpStr = [
-	'<font face="RobotoCondensedBold" size="18">',
-	groupId group _unit,
-	'</font>',
-	'<br/>'
+    '<font face="RobotoCondensedBold" size="18">',
+    groupId group _unit,
+    '</font>',
+    '<br/>'
 ] joinString "";
 
 _units pushBack _grpStr;
