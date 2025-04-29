@@ -1,16 +1,16 @@
 #include "..\script_component.hpp"
 /*
- *	Author: D.Anderson
- *	Description:
- *		Display fancy Mission Start screen and plays with Post Processing
- *		to make mission start bit more dramatic for not good reason.
- *		Wanna use it? Link to downloadable version:
- *		https://github.com/dAnders0n/fancy-mission-start/tree/master/fancy_mission_start.VR
- *	Parametr(s):
- *		0 - _unit: <Object> - must by player.
- *		1 - _time: <Number> - startup time.
- *		2 - _image: <String> - patch to image.
- *		3 - _customText: <String> - Custom text displayed on botton.
+ *    Author: D.Anderson
+ *    Description:
+ *        Display fancy Mission Start screen and plays with Post Processing
+ *        to make mission start bit more dramatic for not good reason.
+ *        Wanna use it? Link to downloadable version:
+ *        https://github.com/dAnders0n/fancy-mission-start/tree/master/fancy_mission_start.VR
+ *    Parametr(s):
+ *        0 - _unit: <Object> - must by player.
+ *        1 - _time: <Number> - startup time.
+ *        2 - _image: <String> - patch to image.
+ *        3 - _customText: <String> - Custom text displayed on botton.
  */
 
 disableSerialization;
@@ -101,9 +101,9 @@ _array = [1200, 1100, 1101, 1102, 1103, 1104, 1105];
 
 ["Default", 7, false] call BIS_fnc_setPPeffectTemplate;
 {
-	_ctrl = (findDisplay 9001) displayCtrl _x;
-	_ctrl ctrlSetFade 1;
-	_ctrl ctrlCommit 7;
+    _ctrl = (findDisplay 9001) displayCtrl _x;
+    _ctrl ctrlSetFade 1;
+    _ctrl ctrlCommit 7;
 } forEach _array;
 
 sleep 7;

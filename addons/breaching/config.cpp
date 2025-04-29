@@ -6,11 +6,15 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ibc_main"};
-        author = "FreestyleBuild";
+        requiredAddons[] = {"ibc_main", "ace_explosives"};
+        author = ECSTRING(main,Author);
+        authors[] = {"Ampersand", "Mike", "Jonpas"};
         VERSION_CONFIG;
     };
 };
 
-
 #include "CfgEventHandlers.hpp"
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"

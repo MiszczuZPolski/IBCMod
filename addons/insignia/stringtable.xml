@@ -2,54 +2,71 @@
 <Project name="IBC">
     <Package name="Insignia">
         <Key ID="STR_IBC_Insignia_Cat">
+            <English>I Am Lost</English>
             <Polish>I Am Lost</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Doge">
+            <English>Doge</English>
             <Polish>Doge</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Duck">
+            <English>Peace was never an option</English>
             <Polish>Peace was never an option</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Emeritus">
+            <English>Emeritus</English>
             <Polish>Emeritus</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Gandalf">
+            <English>Gandalf</English>
             <Polish>Gandalf</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Goose">
+            <English>Goose</English>
             <Polish>Goose</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Homokomando">
+            <English>Homo Komando</English>
             <Polish>Homo Komando</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_King">
+            <English>King of the Hill</English>
             <Polish>Król Gór</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Logo">
+            <English>IBC</English>
             <Polish>IBC</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Meal">
+            <English>Meal Team 6</English>
             <Polish>Meal Team 6</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Mechanicus">
+            <English>Mechanicus</English>
             <Polish>Mechanicus</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Michus">
+            <English>Michus</English>
             <Polish>Michus</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Obajtek">
+            <English>PMC Orlen</English>
             <Polish>PMC Orlen</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Powidz">
+            <English>Grey Wolves Powidz</English>
             <Polish>Grey Wolves Powidz</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Resurs">
+            <English>Resurs</English>
             <Polish>Resurs</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Special">
+            <English>Special</English>
             <Polish>Special</Polish>
         </Key>
         <Key ID="STR_IBC_Insignia_Terror">
+            <English>Anti Terror Terror Club</English>
             <Polish>Anti Terror Terror Club</Polish>
         </Key>
     </Package>
