@@ -20,15 +20,6 @@ params [["_unit", ACE_player], ["_details", false]];
 
 private _grpArr = [];
 
-private _grpStr = [
-    '<font face="RobotoCondensedBold" size="18">',
-    groupId group _unit,
-    '</font>',
-    '<br/>'
-] joinString "";
-
-_grpArr pushBack _grpStr;
-
 if (isPlayer _unit) then {
 
     [_unit] call FUNC(getIdentity) params ["_rank", "_rankImage", "_name", "_role", "_weight"];
@@ -53,7 +44,7 @@ if (isPlayer _unit) then {
 
 if (_details) then {
     _grpArr pushBack LLSTRING(Roster_Information);
-    _grpArr pushBack '<br/><br/>';
+    _grpArr pushBack '<br/>';
 };
 
 private _group = _grpArr joinString "";

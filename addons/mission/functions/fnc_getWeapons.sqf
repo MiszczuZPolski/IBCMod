@@ -26,7 +26,7 @@ if (primaryWeapon _unit != "") then {
     private _primaryWeaponArr = [];
     private _arr = [];
     _arr pushBack primaryWeapon _unit;
-    _arr append (primaryWeaponItems _unit - [""]);
+    _arr append (primaryWeaponItems _unit) + (primaryWeaponMagazine _unit) - [""];
 
     _primaryWeaponArr pushBack ([
         '<font color="#757575" face="RobotoCondensed">',
@@ -39,6 +39,11 @@ if (primaryWeapon _unit != "") then {
     {
         private _displayName = getText(configFile >> "CfgWeapons" >> _x >> "displayName");
         private _picture = getText(configFile >> "CfgWeapons" >> _x >> "picture");
+
+        if (_displayName == "" || _picture == "") then {
+            _displayName = getText (configFile >> "CfgMagazines" >> _x >> "displayName");
+            _picture = getText (configFile >> "CfgMagazines" >> _x >> "picture");
+        };
 
         private _str = ['<img title="', _displayName, '" src="', _picture, '" height="48"/>  '] joinString "";
         _primaryWeaponArr pushBack _str;
@@ -55,7 +60,7 @@ if (secondaryWeapon _unit != "") then {
     private _secondaryWeaponArr = [];
     private _arr = [];
     _arr pushBack secondaryWeapon _unit;
-    _arr append (secondaryWeaponItems  _unit - [""]);
+    _arr append (secondaryWeaponItems _unit) + (secondaryWeaponMagazine _unit) - [""];
 
     _secondaryWeaponArr pushBack ([
         '<font color="#757575" face="RobotoCondensed">',
@@ -67,6 +72,11 @@ if (secondaryWeapon _unit != "") then {
     {
         private _displayName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
         private _picture = getText (configFile >> "CfgWeapons" >> _x >> "picture");
+
+        if (_displayName == "" || _picture == "") then {
+            _displayName = getText (configFile >> "CfgMagazines" >> _x >> "displayName");
+            _picture = getText (configFile >> "CfgMagazines" >> _x >> "picture");
+        };
 
         private _str = ['<img title="', _displayName, '" src="', _picture, '" height="64"/>  '] joinString "";
         _secondaryWeaponArr pushBack _str;
@@ -83,7 +93,7 @@ if (handgunWeapon _unit != "") then {
     private _handgunWeaponArr = [];
     private _arr = [];
     _arr pushBack handgunWeapon _unit;
-    _arr append (handgunItems  _unit - [""]);
+    _arr append (handgunItems _unit) + (handgunMagazine _unit) - [""];
 
     _handgunWeaponArr pushBack ([
         '<font color="#757575" face="RobotoCondensed">',
@@ -92,9 +102,15 @@ if (handgunWeapon _unit != "") then {
         getText (configFile >> "CfgWeapons" >> handgunWeapon _unit >> "displayName"),
         '<br/>'
     ] joinString "");
+
     {
         private _displayName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
         private _picture = getText (configFile >> "CfgWeapons" >> _x >> "picture");
+
+        if (_displayName == "" || _picture == "") then {
+            _displayName = getText (configFile >> "CfgMagazines" >> _x >> "displayName");
+            _picture = getText (configFile >> "CfgMagazines" >> _x >> "picture");
+        };
 
         private _str = ['<img title="', _displayName, '" src="', _picture, '" height="32"/>  '] joinString "";
         _handgunWeaponArr pushBack _str;

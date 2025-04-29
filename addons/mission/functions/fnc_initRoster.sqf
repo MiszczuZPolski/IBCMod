@@ -25,6 +25,15 @@ private _unitsRecords = [];
 private _eq = "";
 
 // loop for Group
+private _grpStr = [
+    '<font face="RobotoCondensedBold" size="18">',
+    groupId group _unit,
+    '</font>',
+    '<br/>'
+] joinString "";
+
+_units pushBack _grpStr;
+
 {
     if (isPlayer _x) then {
         _eq = [_x, false] call FUNC(createEquipment);
