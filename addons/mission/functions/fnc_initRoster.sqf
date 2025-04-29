@@ -61,4 +61,4 @@ _unit setVariable [QGVAR(unitsRecords), _unitsRecords];
     };
 
     [_unit] call FUNC(updateRoster);
-}, 30, [_unit]] call CBA_fnc_addPerFrameHandler;
+}, 10, [_unit]] call CBA_fnc_addPerFrameHandler;
