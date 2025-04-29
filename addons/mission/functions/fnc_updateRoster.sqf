@@ -25,6 +25,15 @@ private _diaryORBAT = _unit getVariable [QGVAR(diaryORBAT), false];
 private _unitsRecords = _unit getVariable [QGVAR(unitsRecords), false];
 
 // this loop for Group
+private _grpStr = [
+	'<font face="RobotoCondensedBold" size="18">',
+	groupId group _unit,
+	'</font>',
+	'<br/>'
+] joinString "";
+
+_units pushBack _grpStr;
+
 {
 	if (isPlayer _x) then {
 		_eq = [_x, false] call FUNC(createEquipment);
