@@ -1,18 +1,18 @@
 #include "..\script_component.hpp"
 /*
- *	Author: D.Anderson
- *	Lorem
+ *    Author: D.Anderson
+ *    Lorem
  *
- *	Arguments:
- *	0: The Unit <OBJECT>
+ *    Arguments:
+ *    0: The Unit <OBJECT>
  *
- *	Return Value:
- *	Bool
+ *    Return Value:
+ *    Bool
  *
- *	Example:
- *	[player] call ibc_mission_fnc_updateRoster
+ *    Example:
+ *    [player] call ibc_mission_fnc_updateRoster
  *
- * 	Public: No
+ *     Public: No
  */
 
 params [["_unit", ACE_player]];
@@ -35,23 +35,23 @@ private _grpStr = [
 _units pushBack _grpStr;
 
 {
-	if (isPlayer _x) then {
-		_eq = [_x, false] call FUNC(createEquipment);
-		_units pushBack _eq;
-	};
+    if (isPlayer _x) then {
+        _eq = [_x, false] call FUNC(createEquipment);
+        _units pushBack _eq;
+    };
 } forEach _arr;
 
 // for now I don't how to resolve it without recreating this, to be completed somethere in the future
 /*
 // this loop for individual
 for "_i" from ((count _arr) -1 ) to 0 step -1 do {
-	if (isPlayer (_arr select _i)) then {
-		private _eq = [_arr select _i, True] call FUNC(createEquipment);
-		// systemChat format["%1, %2", _i, (name (_arr select _i))];
+    if (isPlayer (_arr select _i)) then {
+        private _eq = [_arr select _i, True] call FUNC(createEquipment);
+        // systemChat format["%1, %2", _i, (name (_arr select _i))];
 
-		// this maybe buggy, cuz players can change slots etc disconnect or connect, should delete and recreate?
-		// _unit setDiaryRecordText [["roster", _unitsRecords select _i ], [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""]];
-	};
+        // this maybe buggy, cuz players can change slots etc disconnect or connect, should delete and recreate?
+        // _unit setDiaryRecordText [["roster", _unitsRecords select _i ], [["Wyposażenie", (name (_arr select _i))] joinString " ", _eq, ""]];
+    };
 };
 */
 

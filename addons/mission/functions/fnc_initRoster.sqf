@@ -1,18 +1,18 @@
 #include "..\script_component.hpp"
 /*
- *	Author: D.Anderson
- *	Initialization of roster scripts, create dairy records for ORBAT, Group and every player in the group
+ *    Author: D.Anderson
+ *    Initialization of roster scripts, create dairy records for ORBAT, Group and every player in the group
  *
- *	Arguments:
- *	0: The Unit <OBJECT>
+ *    Arguments:
+ *    0: The Unit <OBJECT>
  *
- *	Return Value:
- *	Bool
+ *    Return Value:
+ *    Bool
  *
- *	Example:
- *	[player] call dAn_fnc_initRoster
+ *    Example:
+ *    [player] call dAn_fnc_initRoster
  *
- * 	Public: No
+ *     Public: No
  */
 
 params [["_unit", ACE_player]];
@@ -35,20 +35,20 @@ private _grpStr = [
 _units pushBack _grpStr;
 
 {
-	if (isPlayer _x) then {
-		_eq = [_x, false] call FUNC(createEquipment);
-		_units pushBack _eq;
-	};
+    if (isPlayer _x) then {
+        _eq = [_x, false] call FUNC(createEquipment);
+        _units pushBack _eq;
+    };
 } forEach _arr;
 
 // loop for individual
 for "_i" from ((count _arr) - 1) to 0 step -1 do {
-	if (isPlayer (_arr select _i)) then {
-		_eq = [_arr select _i, true] call FUNC(createEquipment);
+    if (isPlayer (_arr select _i)) then {
+        _eq = [_arr select _i, true] call FUNC(createEquipment);
 
-		_var = _unit createDiaryRecord ["roster", [[LLSTRING(Roster_Inventory), (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
-		_unitsRecords pushBack _var;
-	};
+        _var = _unit createDiaryRecord ["roster", [[LLSTRING(Roster_Inventory), (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
+        _unitsRecords pushBack _var;
+    };
 };
 
 _units = _units joinString "";
@@ -70,4 +70,4 @@ _unit setVariable [QGVAR(unitsRecords), _unitsRecords];
     };
 
     [_unit] call FUNC(updateRoster);
-}, 30, [_unit]] call CBA_fnc_addPerFrameHandler;
+}, 10, [_unit]] call CBA_fnc_addPerFrameHandler;
