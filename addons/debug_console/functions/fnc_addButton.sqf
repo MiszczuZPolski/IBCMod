@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [["Test", "This is a button"], {hint "Button was clicked"}] call afm_debug_console_fnc_addButton
+ * [["Test", "This is a button"], {hint "Button was clicked"}] call ibc_debug_console_fnc_addButton
  *
  * Public: Yes
  */
