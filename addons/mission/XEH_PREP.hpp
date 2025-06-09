@@ -6,5 +6,7 @@ PREP(getWeapons);
 PREP(initRoster);
 PREP(introDialog);
 PREP(introDialogCD);
+PREP(intro2);
 PREP(moduleInit);
+PREP(moduleInitIntro2);
 PREP(updateRoster);
