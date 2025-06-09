@@ -2,11 +2,11 @@
 /*
  *  Author: D.Anderson
  *  Description:
- *      you mom
+ *      Intro v2.0 from Joint Operation Stray Dog, copy cat from A4E
  *  Parametr(s):
- *      0 - _missionName: <String> - Nazwa misji
- *      1 - _missionAuthor: <String> -
- *      2 - _timer <Number> -
+ *      0 - _missionName: <String> - Mission name fetched from Intro 2 Module
+ *      1 - _missionAuthor: <String> - Mission author fetched from Intro 2 Module
+ *      2 - _timer <Number> - Time for how long intro will be runnig, default 60sec.
  */
 
 params [
