@@ -32,4 +32,4 @@ _missionAuthor = _logic getVariable "MissionAuthor";
 private _time = _logic getVariable "Timer";
 private _timer = parseNumber _time;
 
-systemChat format ["%1, %2, %3", _missionName, _missionAuthor, _timer];
+[_missionName, _missionAuthor, _timer] spawn FUNC(intro2);
