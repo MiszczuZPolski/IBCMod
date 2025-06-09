@@ -18,7 +18,6 @@ params [
 
 private _unit = ACE_Player;
 private _clan = "Inglourious Basterds Clan";        // Hardcoded, semper gumby
-private _image = QPATHTOF(images\logo512.paa);      // Hardcoded, semper gumby
 
 [_unit, "blockRadio", "IBC_Intro", true] call ace_common_fnc_statusEffect_set;
 [_unit, "blockSpeaking", "IBC_Intro", true] call ace_common_fnc_statusEffect_set;
@@ -47,12 +46,12 @@ private _timer_display = _timer * 0.125;
 }, [_timer1], 1.0] call CBA_fnc_waitAndExecute;
 
 [{
-    params ["_clan", "_image", "_timer", "_timer_display", "_verbose"];
+    params ["_clan", "_timer", "_timer_display", "_verbose"];
 
     private _text = [
         _clan,
         "<br />",
-        "<t size='9'>", _image, "</t>"
+        "<t size='9'>", "<img image='\z\ibc\addons\mission\images\logo512.paa' />", "</t>"
     ] joinString "";
     [_text, 0, 0, _timer_display, 0.25, 0, 788] spawn BIS_fnc_dynamicText;
     //["resources\ibc_logo.paa",[0, 0.0, 0.5, 0.625], 10, 4.5] spawn BIS_fnc_textTiles;
@@ -60,7 +59,7 @@ private _timer_display = _timer * 0.125;
         systemChat format["Logo: %1 sec delay", _timer];
     };
 },
-[_clan, _image, _timer1, _timer_display,  _verbose],
+[_clan, _timer1, _timer_display,  _verbose],
 _timer1] call CBA_fnc_waitAndExecute;
 
 [{
