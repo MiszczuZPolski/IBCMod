@@ -11,19 +11,19 @@
         </Key>
         <Key ID="STR_IBC_Mission_IntroControlLocked">
             <English>Controls disabled...</English>
-            <Polish>Sterowanie zablokwane...</Polish>
+            <Polish>Sterowanie zablokowane...</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_IntroControlUnlocked">
             <English>Controls enabled...</English>
-            <Polish>Sterowanie odblokwane...</Polish>
+            <Polish>Sterowanie odblokowane...</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_IntroLoading">
             <English>Loading</English>
             <Polish>Wczytywanie</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_IntroOperation">
-            <English>Operacja</English>
-            <Polish>Operation</Polish>
+            <English>Operation</English>
+            <Polish>Operacja</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_IntroPresents">
             <English>Presents</English>
