@@ -4,9 +4,9 @@
  *  Description:
  *      you mom
  *  Parametr(s):
- *      0 - _missionName: <String> - Nazwa misji 
- *      1 - _missionAuthor: <String> - 
- *      2 - _timer <Number> - 
+ *      0 - _missionName: <String> - Nazwa misji
+ *      1 - _missionAuthor: <String> -
+ *      2 - _timer <Number> -
  */
 
 params [
@@ -25,11 +25,11 @@ private _image = QPATHTOF(images\logo512.paa);      // Hardcoded, semper gumby
 _unit enableSimulation false;
 
 // calibrate timers
-_timer1 = _timer * 0.42;
-_timer2 = _timer * 0.60;
-_timer3 = _timer * 0.75;
-_timer4 = _timer * 0.90;
-_timer_display = _timer * 0.125; 
+private _timer1 = _timer * 0.42;
+private _timer2 = _timer * 0.60;
+private _timer3 = _timer * 0.75;
+private _timer4 = _timer * 0.90;
+private _timer_display = _timer * 0.125;
 
 [{
     params ["_timer"];
@@ -59,8 +59,8 @@ _timer_display = _timer * 0.125;
     if (_verbose) then {
         systemChat format["Logo: %1 sec delay", _timer];
     };
-}, 
-[_clan, _image, _timer1, _timer_display,  _verbose], 
+},
+[_clan, _image, _timer1, _timer_display,  _verbose],
 _timer1] call CBA_fnc_waitAndExecute;
 
 [{
@@ -70,8 +70,8 @@ _timer1] call CBA_fnc_waitAndExecute;
     if (_verbose) then {
         systemChat format["Logo: %1 sec delay", _timer];
     };
-}, 
-[_timer2, _timer_display, _verbose], 
+},
+[_timer2, _timer_display, _verbose],
 _timer2] call CBA_fnc_waitAndExecute;
 
 [{
@@ -88,8 +88,8 @@ _timer2] call CBA_fnc_waitAndExecute;
     if (_verbose) then {
         systemChat format["Logo: %1 sec delay", _timer];
     };
-}, 
-[_missionName, _missionAuthor, _timer3, _timer_display, _verbose], 
+},
+[_missionName, _missionAuthor, _timer3, _timer_display, _verbose],
 _timer3] call CBA_fnc_waitAndExecute;
 
 [{
@@ -108,6 +108,6 @@ _timer3] call CBA_fnc_waitAndExecute;
     if (_verbose) then {
         systemChat format["Logo: %1 sec delay", _timer];
     };
-}, 
-[_unit, _timer4, _timer_display, _verbose], 
+},
+[_unit, _timer4, _timer_display, _verbose],
 _timer4] call CBA_fnc_waitAndExecute;
