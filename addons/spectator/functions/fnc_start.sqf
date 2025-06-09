@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: 3Mydlo3
  * Function starts spectator for given player
@@ -37,7 +37,7 @@ private _whitelistedSides = switch _sides do {
     // Player side spectator
     case 1: {[playerSide]};
     // All sides spectator
-    case 2: {[WEST, INDEPENDENT, EAST]};
+    case 2: {[west, independent, east]};
     // Player group only
     case 3: {[group player]};
     // Player only
@@ -46,7 +46,7 @@ private _whitelistedSides = switch _sides do {
 };
 
 if (_civilianSide) then {
-    _whitelistedSides pushBack CIVILIAN;
+    _whitelistedSides pushBack civilian;
 };
 
 // EG spectator disables player damage on init,

@@ -2,8 +2,8 @@
 <Project name="IBC">
     <Package name="Spectator">
         <Key ID="STR_IBC_Spectator_DisplayName">
-            <English>ArmaForces - Spectator</English>
-            <Polish>ArmaForces - Obserwator</Polish>
+            <English>IBC - Spectator</English>
+            <Polish>IBC - Obserwator</Polish>
         </Key>
         <Key ID="STR_IBC_Spectator_Enabled">
             <English>Enable spectator</English>

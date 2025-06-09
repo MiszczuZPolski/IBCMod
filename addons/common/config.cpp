@@ -7,16 +7,13 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ibc_common",
-            "a3_functions_f_exp_a"
+            "ibc_main"
         };
         author = "ArmaForces";
         VERSION_CONFIG;
     };
 };
 
-
 #include "CfgEventHandlers.hpp"
-#include "CfgFunctions.hpp"
-#include "CfgScriptPaths.hpp"
-#include "RscDisplayEGSpectator.hpp"
+#include "CfgVehicles.hpp"
+#include "ui\RscModal.hpp"

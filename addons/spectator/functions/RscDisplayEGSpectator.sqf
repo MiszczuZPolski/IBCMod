@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 #include "\a3\functions_f_exp_a\EGSpectatorCommonDefines.inc"
 /*
  * Author: 3Mydlo3
@@ -99,9 +99,9 @@ switch _mode do
                 // Add group to corresponding array, divided per side
                 switch (side _group) do
                 {
-                    case WEST:       { _west pushBack _result; };
-                    case EAST:       { _east pushBack _result; };
-                    case RESISTANCE: { _indep pushBack _result; };
+                    case west:       { _west pushBack _result; };
+                    case east:       { _east pushBack _result; };
+                    case resistance: { _indep pushBack _result; };
                     default          { _civ pushBack _result; };
                 };
             };
@@ -111,7 +111,7 @@ switch _mode do
         private _newList = [_west, _east, _indep, _civ];
 
         // Whether an update to the list is required (really only if something changed)
-        if !(_oldList isEqualTo _newList) then
+        if (_oldList isNotEqualTo _newList) then
         {
             private _allElements = ["TreeGetAllElements"] call (uiNamespace getVariable ["RscDisplayEGSpectator_script", {}]);
             private _groupElements = _allElements select 1;
@@ -200,10 +200,10 @@ switch _mode do
                 };
                 private _sideColor = switch (_forEachIndex) do
                 {
-                    case 0: { [WEST] call BIS_fnc_sideColor; };
-                    case 1: { [EAST] call BIS_fnc_sideColor; };
-                    case 2: { [RESISTANCE] call BIS_fnc_sideColor; };
-                    default { [CIVILIAN] call BIS_fnc_sideColor; };
+                    case 0: { [west] call BIS_fnc_sideColor; };
+                    case 1: { [east] call BIS_fnc_sideColor; };
+                    case 2: { [resistance] call BIS_fnc_sideColor; };
+                    default { [civilian] call BIS_fnc_sideColor; };
                 };
                 private _sideString = switch (_forEachIndex) do
                 {
@@ -310,7 +310,7 @@ switch _mode do
             private _i = ["TreeGetDataIndex", [[_focus] call BIS_fnc_objectVar]] call (uiNamespace getVariable ["RscDisplayEGSpectator_script", {}]);
 
             // If found, select it
-            if !(_i isEqualTo []) then
+            if (_i isNotEqualTo []) then
             {
                 _ctrl tvSetCurSel _i;
             };

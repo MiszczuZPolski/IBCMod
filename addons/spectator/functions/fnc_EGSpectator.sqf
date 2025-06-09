@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 #include "\a3\functions_f_exp_a\EGSpectatorCommonDefines.inc"
 /*
  * Author: 3Mydlo3
