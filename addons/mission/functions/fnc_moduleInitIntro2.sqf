@@ -35,4 +35,4 @@ _missionCustomText = _logic getVariable "MissionCustomText";
 private _time = _logic getVariable "Timer";
 private _timer = parseNumber _time;
 
-[_missionName, _missionAuthor, _missionCustomText, _timer, true] spawn FUNC(intro2);
+[_missionName, _missionAuthor, _missionCustomText, _timer] spawn FUNC(intro2);

@@ -43,7 +43,7 @@ if (_missionCustomText != "") then {
 // calibrate timers
 private _timer_clan_logo = _timer * 0.50;
 private _timer_mission_info = _timer * 0.75;
-private _timer_mission_custom = (_timer * 0.80) + _timer_misisonCustomText;
+private _timer_mission_custom = (_timer * 0.90) + _timer_misisonCustomText;
 private _timer_ending  = (_timer * 1.00) + (_timer_misisonCustomText * 1.1);
 
 private _timer_display = _timer * 0.125; // whyyyyyyy 0.125?
@@ -56,16 +56,27 @@ private _timer_display = _timer * 0.125; // whyyyyyyy 0.125?
         ["BlackAndWhite", 0.10, false] call BIS_fnc_setPPeffectTemplate;
         titleCut ["", "BLACK FADED", 999];
 
-        private _text = [
-            "<t size='.75'>",
-            LLSTRING(IntroLoading),
-            "...</t>"
-        ] joinString "";
-        [_text, -1, 1, (_timer * 0.75), 0.25, 0, 789] spawn BIS_fnc_dynamicText;
+        // refreshing loading
+        for "_i" from 1 step 3 to (floor _timer) do { 
+            [{
+                params ["_timer", "_total_time"];
+                private _percent = floor ((_timer / _total_time) * 100);
+
+                private _text = [
+                    "<t size='.75'>",
+                    LLSTRING(IntroLoading), " ",
+                    _percent, 
+                    "%</t>"
+                ] joinString "";
+
+                private _layer = 789 + _timer;
+                [_text, -1, 1, 1.25, 0.50, 0, _layer] spawn BIS_fnc_dynamicText;
+            }, [_i, _timer], _i] call CBA_fnc_waitAndExecute; 
+        };
 
         hintSilent LLSTRING(IntroControlLocked);
         [{hintSilent "";}, [], 2.5] call CBA_fnc_waitAndExecute;
-    }, 
+    },
     [_timer_clan_logo], 
     1.0
 ] call CBA_fnc_waitAndExecute;
