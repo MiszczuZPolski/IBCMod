@@ -69,6 +69,12 @@ class CfgVehicles {
                 typeName = "STRING";
                 defaultValue = "Mission Author";
             };
+            class MissionCustomText {
+                displayName = CSTRING(MissionCustomText);
+                description = CSTRING(MissionCustomText_Desc);
+                typeName = "STRING";
+                defaultValue = "";
+            };
             class Timer {
                 displayName = CSTRING(Timer);
                 description = CSTRING(Timer_Desc);

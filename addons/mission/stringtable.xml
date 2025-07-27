@@ -37,6 +37,14 @@
             <English>Author name for display</English>
             <Polish>Nazwa autora do wyświetlenia</Polish>
         </Key>
+        <Key ID="STR_IBC_Mission_MissionCustomText">
+            <English>Diablo's Custom Text</English>
+            <Polish>Niestandardowy tekst Diablo</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_MissionCustomText_Desc">
+            <English>Displayed during intro, maximum 128 characters</English>
+            <Polish>Wyświetlane podczas intro, maksymalnie 128 znaków</Polish>
+        </Key>
         <Key ID="STR_IBC_Mission_MissionName">
             <English>Mission Name</English>
             <Polish>Nazwa Misji</Polish>
