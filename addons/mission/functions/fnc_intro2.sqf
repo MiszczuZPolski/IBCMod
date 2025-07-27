@@ -7,7 +7,7 @@
  *      0 - _missionName: <String> - Mission name fetched from Intro 2 Module
  *      1 - _missionAuthor: <String> - Mission author fetched from Intro 2 Module
  *      2 - _missionCustomText: <String> - Diablo's Custom Text fetched from Intro 2 Module
- *      3 - _timer <Number> - Time for how long intro will be runnig, default 60sec.
+ *      3 - _timer <Number> - Time for how long intro will be running, default 60sec.
  */
 
 params [
