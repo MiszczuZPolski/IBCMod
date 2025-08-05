@@ -25,7 +25,7 @@ if (_timer <= 30) then {
 
 private _unit = ACE_Player;
 private _clan = "Inglourious Basterds Clan";        // Hardcoded, semper gumby
-private _timer_misisonCustomText = 0;
+private _misisonCustomText = 0;
 
 [_unit, "blockRadio", "IBC_Intro", true] call ace_common_fnc_statusEffect_set;
 [_unit, "blockSpeaking", "IBC_Intro", true] call ace_common_fnc_statusEffect_set;
@@ -33,18 +33,18 @@ _unit enableSimulation false;
 
 // estimate reading time needed for custom text
 if (_missionCustomText != "") then {
-    if((count _missionCustomText) >= 128) then {
+    if ((count _missionCustomText) >= 128) then {
         _missionCustomText = _missionCustomText select [0, 127];
     };
     // 3.33 words per second that the avg reading speed, for arma player 3.5 and round up
-    _timer_misisonCustomText = ceil ((count(_missionCustomText splitString " ")) / 3.5);
+    _misisonCustomText = ceil ((count(_missionCustomText splitString " ")) / 3.5);
 };
 
 // calibrate timers
 private _timer_clan_logo = _timer * 0.50;
 private _timer_mission_info = _timer * 0.75;
-private _timer_mission_custom = (_timer * 0.90) + _timer_misisonCustomText;
-private _timer_ending  = (_timer * 1.00) + (_timer_misisonCustomText * 1.1);
+private _timer_mission_custom = (_timer * 0.90) + _misisonCustomText;
+private _timer_ending  = (_timer * 1.00) + (_misisonCustomText * 1.1);
 
 private _timer_display = _timer * 0.125; // whyyyyyyy 0.125?
 
@@ -142,7 +142,7 @@ if (_missionCustomText != "") then {
                 systemChat format["Logo: %1 sec delay", _timer];
             };
         },
-        [_missionCustomText, _timer_mission_custom, _timer_misisonCustomText, _verbose],
+        [_missionCustomText, _timer_mission_custom, _misisonCustomText, _verbose],
         _timer_mission_custom
     ] call CBA_fnc_waitAndExecute;
 };
