@@ -25,4 +25,12 @@ private _category = "IBC Mission Settings";
     true
 ] call CBA_fnc_addSetting;
 
+[
+    QGVAR(spectatorInUncon),
+    "CHECKBOX",
+    [LLSTRING(Setting_SpectatorInUncon), LLSTRING(Setting_SpectatorInUncon_Description)],
+    _category,
+    false
+] call CBA_fnc_addSetting;
+
 ADDON = true;
