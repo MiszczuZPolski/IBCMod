@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="Compat_FOW">
+        <Key ID="STR_IBC_Compat_FOW_mag_100rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in M1919</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_100rnd_762x63_t_name">
+            <English>100Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_15rnd_762x33_t_desc">
+            <English>.30 carbine. Used in Springfield M1 Carbine</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_15rnd_762x33_t_name">
+            <English>15 Rnd 762x33 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_desc">
+            <English>.30 Springfield. Used in M1919</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_name">
+            <English>200Rnd 762x63</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in M1919</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_t_name">
+            <English>200Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_20rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in BAR</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_20rnd_762x63_t_name">
+            <English>20Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_30rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in M1919</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_30rnd_762x63_t_name">
+            <English>30Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_50rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in M1919</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_50rnd_762x63_t_name">
+            <English>50Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_5rnd_762x63_t_desc">
+            <English>.30 Springfield. Used in M1903 Springfield</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_5rnd_762x63_t_name">
+            <English>5Rnd 762x63 (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_7rnd_45acp_t_desc">
+            <English>.45 ACP. Used in M1911</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_7rnd_45acp_t_name">
+            <English>7Rnd .45 ACP (T)</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_8rnd_762x63_t_desc">
+            <English>.30-07 Springfield. Used in M1 Garand</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_8rnd_762x63_t_name">
+            <English>8Rnd 762x63 (T)</English>
+        </Key>
+    </Package>
+</Project>
