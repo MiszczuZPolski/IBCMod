@@ -1,8 +1,8 @@
 class CfgMagazines {
-	class Default {};
-	class CA_Magazine: Default {};
+    class Default {};
+    class CA_Magazine: Default {};
 
-	class fow_20Rnd_762x63: CA_Magazine {};
+    class fow_20Rnd_762x63: CA_Magazine {};
     class GVAR(20Rnd_762x63_T): fow_20Rnd_762x63 {
         displayName = CSTRING(mag_20rnd_762x63_t_name);
         descriptionShort = CSTRING(mag_20rnd_762x63_t_desc);
