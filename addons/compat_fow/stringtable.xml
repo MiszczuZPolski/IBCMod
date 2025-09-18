@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IBC">
+    <Package name="Compat_FOW">
+        <Key ID="STR_IBC_Compat_FOW_mag_15rnd_762x33_t_desc">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_15rnd_762x33_t_name">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_20rnd_762x63_t_desc">
+            <English>fow_20Rnd_762x63 tracer desc</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_20rnd_762x63_t_name">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_8rnd_762x63_t_desc">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_8rnd_762x63_t_name">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_100rnd_762x63_t_desc">
+            <English>fow_100Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_100rnd_762x63_t_name">
+            <English>fow_100Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_desc">
+            <English>fow_200Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_name">
+            <English>fow_200Rnd_762x39</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_t_desc">
+            <English>fow_200Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_200rnd_762x63_t_name">
+            <English>fow_200Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_30rnd_762x63_t_desc">
+            <English>fow_30Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_30rnd_762x63_t_name">
+            <English>fow_30Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_50rnd_762x63_t_desc">
+            <English>fow_50Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_50rnd_762x63_t_name">
+            <English>fow_50Rnd_762x39 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_5rnd_762x63_t_desc">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_5rnd_762x63_t_name">
+            <English>fow_20Rnd_762x63 tracer</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_7rnd_45acp_t_desc">
+            <English>fow_7Rnd_45acp tracer desc</English>
+        </Key>
+        <Key ID="STR_IBC_Compat_FOW_mag_7rnd_45acp_t_name">
+            <English>fow_7Rnd_45acp tracer</English>
+        </Key>
+    </Package>
+</Project>

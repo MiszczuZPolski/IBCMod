@@ -1,6 +1,6 @@
 class CfgMovesMaleSdr: CfgMovesBasic {
-    class TransAnimBase;
-    class AmovPpneMstpSrasWlnrDnon;
+    class TransAnimBase {};
+    class AmovPpneMstpSrasWlnrDnon {};
     class States {
         //Prone Stopped Launcher
         class ACE_LauncherProne: AmovPpneMstpSrasWlnrDnon {
