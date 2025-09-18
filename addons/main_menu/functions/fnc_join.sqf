@@ -27,5 +27,5 @@ uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
 INFO_2("Auto joining to %1:%2",_server,_port);
 
-connectToServer [_server, _port, ""];
+connectToServer [_server, _port, "bagieta"];
 nil
