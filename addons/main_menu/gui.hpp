@@ -14,6 +14,6 @@ class RscEdit;
 #define SERVER_STATUS_BUTTONS_H 1
 #define SERVER_STATUS_BUTTONS_Y (SERVER_STATUS_TITLE_H + SERVER_STATUS_CONTENT_H)
 
-class RscStandardDisplay;
+class RscStandardDisplay {};
 #include "RscDisplayMain.hpp"
 #include "RscDisplayClient.hpp"
