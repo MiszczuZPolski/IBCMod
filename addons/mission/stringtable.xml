@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="IBC">
     <Package name="Mission">
-        <Key ID="STR_IBC_Mission_CustomText">
-            <English>Custom Text</English>
-            <Polish>Tekst Własny</Polish>
-        </Key>
-        <Key ID="STR_IBC_Mission_CustomText_Desc">
-            <English>Custom text that will be displayed on the screen</English>
-            <Polish>Tekst własny, który będzie wyświetlany na ekranie</Polish>
-        </Key>
         <Key ID="STR_IBC_Mission_IntroControlLocked">
             <English>Controls disabled...</English>
             <Polish>Sterowanie zablokowane...</Polish>
@@ -36,6 +28,14 @@
         <Key ID="STR_IBC_Mission_MissionAuthor_Desc">
             <English>Author name for display</English>
             <Polish>Nazwa autora do wyświetlenia</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_MissionCustomText">
+            <English>Custom Text</English>
+            <Polish>Niestandardowy tekst</Polish>
+        </Key>
+        <Key ID="STR_IBC_Mission_MissionCustomText_Desc">
+            <English>Displayed during intro, maximum 128 characters</English>
+            <Polish>Wyświetlane podczas intro, maksymalnie 128 znaków</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_MissionName">
             <English>Mission Name</English>
@@ -108,14 +108,6 @@
         <Key ID="STR_IBC_Mission_Setting_Whitelist_Description">
             <English>Whitelist for players privileged to arsenal</English>
             <Polish>Biała lista graczy mogących korzystać z arsenału</Polish>
-        </Key>
-        <Key ID="STR_IBC_Mission_Terrain">
-            <English>Terrain</English>
-            <Polish>Teren</Polish>
-        </Key>
-        <Key ID="STR_IBC_Mission_Terrain_Desc">
-            <English>Terrain name for display</English>
-            <Polish>Nazwa terenu do wyświetlenia</Polish>
         </Key>
         <Key ID="STR_IBC_Mission_Timer">
             <English>Timer</English>

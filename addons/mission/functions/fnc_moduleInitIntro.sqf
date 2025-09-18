@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: D.Anderson
- * Initializes Intro2 module
+ * Initializes Intro module
  *
  * Arguments:
  * 0: The module logic <LOGIC>
@@ -28,8 +28,11 @@ _missionName = _logic getVariable "MissionName";
 // Extract Mission Author
 _missionAuthor = _logic getVariable "MissionAuthor";
 
+// Extract Diablo's Custom Text
+_missionCustomText = _logic getVariable "MissionCustomText";
+
 // Extract Timer
 private _time = _logic getVariable "Timer";
 private _timer = parseNumber _time;
 
-[_missionName, _missionAuthor, _timer] spawn FUNC(intro2);
+[_missionName, _missionAuthor, _missionCustomText, _timer] spawn FUNC(intro);
