@@ -15,6 +15,8 @@
 #endif
 
 #include "\z\ibc\addons\main\script_macros.hpp"
+#include "\a3\ui_f\hpp\defineResincl.inc"
+
 
 #define MP_PWD_BORDER_CONTROL (_display displayCtrl ([108, 143] select (_displayName == 'RscDisplayRemoteMissions')))
 
@@ -42,3 +44,4 @@
 #define IDC_SERVERSTATUS_PASSWORD 1002
 #define IDC_SERVERSTATUS_LOGIN 1003
 #define IDC_SERVERSTATUS_MISSIONS 1004
+#define IDC_MSGBOX_TEXT 1005

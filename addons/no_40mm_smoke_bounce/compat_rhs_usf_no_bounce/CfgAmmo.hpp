@@ -1,9 +1,6 @@
 class CfgAmmo {
     class SmokeShell;
-    class SmokeShellBlue;
     class SmokeShellGreen;
-    class SmokeShellOrange;
-    class SmokeShellPurple;
     class SmokeShellRed;
     class SmokeShellYellow;
 

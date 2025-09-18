@@ -1,3 +1,3 @@
+PREP(addMultiplayerButtonsLogic);
 PREP(join);
 PREP(serverStatusOnLoad);
-PREP(addMultiplayerButtonsLogic);
