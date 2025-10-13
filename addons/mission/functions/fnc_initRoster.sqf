@@ -36,7 +36,7 @@ _units pushBack _grpStr;
 
 {
     if (isPlayer _x) then {
-        _eq = [_x, false] call FUNC(createEquipment);
+        private _eq = [_x, false] call FUNC(createEquipment);
         _units pushBack _eq;
     };
 } forEach _arr;
@@ -46,7 +46,7 @@ for "_i" from ((count _arr) - 1) to 0 step -1 do {
     if (isPlayer (_arr select _i)) then {
         _eq = [_arr select _i, true] call FUNC(createEquipment);
 
-        _var = _unit createDiaryRecord ["roster", [[LLSTRING(Roster_Inventory), (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
+        private _var = _unit createDiaryRecord ["roster", [[LLSTRING(Roster_Inventory), (name (_arr select _i))] joinString " ", _eq, ""], taskNull, "NONE", false];
         _unitsRecords pushBack _var;
     };
 };

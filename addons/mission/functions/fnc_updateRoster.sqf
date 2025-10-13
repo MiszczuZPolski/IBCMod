@@ -36,7 +36,7 @@ _units pushBack _grpStr;
 
 {
     if (isPlayer _x) then {
-        _eq = [_x, false] call FUNC(createEquipment);
+        private _eq = [_x, false] call FUNC(createEquipment);
         _units pushBack _eq;
     };
 } forEach _arr;
@@ -55,8 +55,8 @@ for "_i" from ((count _arr) -1 ) to 0 step -1 do {
 };
 */
 
-_group = _units joinString "";
-_orbat = [_unit] call FUNC(createORBAT);
+private _group = _units joinString "";
+private _orbat = [_unit] call FUNC(createORBAT);
 
 _unit setDiaryRecordText [["roster", _diaryGroup], [LLSTRING(Roster_Group_Inventory), _group, ""]];
 _unit setDiaryRecordText [["roster", _diaryORBAT], ["ORBAT", _orbat, ""]];

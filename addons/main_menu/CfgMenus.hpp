@@ -7,7 +7,7 @@ class EMM_mainMenu_CfgMenus {
 
                 class ServerBrowser {};
                 class IBC: ServerBrowser {
-                    action = QUOTE(_this call (uiNamespace getVariable QQFUNC(join)));
+                    action = QUOTE(call (uiNamespace getVariable QQFUNC(join)));
                     text = CSTRING(SpotlightHeader);
                 };
             };

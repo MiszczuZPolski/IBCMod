@@ -20,7 +20,7 @@
 
 // begin of inline funcs
 private _fnc_createEntry = {
-    _str = '';
+    private _str = '';
     private _displayName = getText (configFile >> "CfgWeapons" >>  _this select 0 >> "displayName");
     private _picture = getText (configFile >> "CfgWeapons" >>  _this select 0 >> "picture");
 
@@ -47,10 +47,10 @@ private _fnc_createEntry = {
 
 private _fnc_countInvertory = {
     private _noDuplicates = (_this select 0) arrayIntersect (_this select 0);
-    _result = [];
+    private _result = [];
     {
         private _original = _x;
-        _count = 0;
+        private _count = 0;
         {
             if (_x == _original) then {
                 _count  = _count + 1;
@@ -60,7 +60,7 @@ private _fnc_countInvertory = {
         _result pushBack [_original, str _count];
     } forEach _noDuplicates;
 
-    _itemsArr = [];
+    private _itemsArr = [];
     {
         private _name = [(_x select 0), '32'] call _fnc_createEntry;
         _itemsArr pushBack _name;
@@ -68,7 +68,7 @@ private _fnc_countInvertory = {
         _itemsArr pushBack _count;
     } forEach _result;
 
-    _str = _itemsArr joinString "";
+    private _str = _itemsArr joinString "";
     _str
 };
 // end of inline funcs
@@ -87,7 +87,7 @@ private _arr = [uniform _unit, vest _unit, backpack _unit, headgear _unit, hmd _
 // TODO: compat TFAR/ACRE...
 //_arr append ([] call acre_api_fnc_getCurrentRadioList);
 {
-    _returnVal = [_x, '48'] call _fnc_createEntry;
+    private _returnVal = [_x, '48'] call _fnc_createEntry;
     _equipmentArr pushBack _returnVal;
     _equipmentArr pushBack " ";
 } forEach _arr;
@@ -103,8 +103,8 @@ if (_details) then {
                 LLSTRING(Roster_Uniform), ':',
                 '</font><br/>'
             ] joinString "");
-            if ((count _items) > 0) then {
-                 _itemsStr = [_items] call _fnc_countInvertory;
+            if (_items isNotEqualTo []) then {
+                private _itemsStr = [_items] call _fnc_countInvertory;
                 // systemChat format["getEquip: %1", _itemsStr];
                 _equipmentArr pushBack _itemsStr;
             } else {
@@ -122,7 +122,7 @@ if (_details) then {
             ] joinString "");
 
             private _items = vestItems _unit;
-            if ((count _items) > 0) then {
+            if (_items isNotEqualTo []) then {
                 private _itemsStr = [_items] call _fnc_countInvertory;
                 _equipmentArr pushBack _itemsStr;
             } else {
@@ -141,7 +141,7 @@ if (_details) then {
             ] joinString "");
 
             private _items = backpackItems _unit;
-            if ((count _items) > 0) then {
+            if (_items isNotEqualTo []) then {
                 private _itemsStr = [_items] call _fnc_countInvertory;
                 _equipmentArr pushBack _itemsStr;
             } else {

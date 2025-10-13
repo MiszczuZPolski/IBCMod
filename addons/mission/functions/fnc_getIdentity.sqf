@@ -21,13 +21,13 @@ private _arr = [];
 
 private _rank = rank _unit;
 private _name = [" ", name _unit] joinString "";
-private _role = if (roleDescription _unit != "") then [{roleDescription _unit}, {getText (configFile >> "CfgVehicles" >> typeOf _unit >> "displayName")}];
+private _role = if (roleDescription _unit != "") then [{roleDescription _unit}, {getText (configOf _unit >> "displayName")}];
 private _weight = [_unit] call ace_common_fnc_getWeight;
 
 //fix the role description
 //remove anything after @
 private _str = _role splitString "@";
-private _role = _str select 0;
+_role = _str select 0;
 
 //remove anything after (
 _str = _role splitString "(";

@@ -23,13 +23,13 @@ if (!_activated) exitWith {};
 if (isNull _logic) exitWith {};
 
 // Extract Mission Name
-_missionName = _logic getVariable "MissionName";
+private _missionName = _logic getVariable "MissionName";
 
 // Extract Mission Author
-_missionAuthor = _logic getVariable "MissionAuthor";
+private _missionAuthor = _logic getVariable "MissionAuthor";
 
 // Extract Diablo's Custom Text
-_missionCustomText = _logic getVariable "MissionCustomText";
+private _missionCustomText = _logic getVariable "MissionCustomText";
 
 // Extract Timer
 private _time = _logic getVariable "Timer";
