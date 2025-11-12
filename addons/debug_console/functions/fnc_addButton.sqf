@@ -18,7 +18,7 @@
  * Public: Yes
  */
 
-params [["_name", "", ["", []]], ["_code", "", [{}]]];
+params [["_name", "", ["", []]], ["_code", {}, [{}]]];
 _name params [["_displayName", "", [""]], ["_tooltip", "", [""]]];
 
 GVAR(buttons) pushBack [_displayName, _tooltip, _code];
